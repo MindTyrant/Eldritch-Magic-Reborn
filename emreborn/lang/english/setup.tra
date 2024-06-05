@@ -1,0 +1,165 @@
+
+
+     @0 = ~This component is not available for your game.~
+
+     
+     @42 = ~Bronze Ioun Stone~
+     @43 = ~The powerful enchantments on this ioun stone make it a treasure eagerly sought after by wizards.
+
+STATISTICS:
+
+Equipped abilities:
+– Can memorize one extra 7th-level wizard spell
+
+Weight: 0~
+     @44 = ~Wong Fei's Ioun Stone~
+     @45 = ~This ioun stone was said to be a gift given to the Shou-ling monk Wong Fei Hung by the Kara-Turan god of war, Chan Cheng. The god came down in the form of a dragon and fought Wong Fei for three days and three nights. Chan Cheng was so impressed by the monk's prowess that he bestowed the ioun stone upon him. The stone disappeared when Wong Fei died.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +1
+– Hit Points: +15
+– Regenerate 1 Hit Point/round
+
+Weight: 0~
+     @46 = ~Gemstone~
+     @47 = ~This otherwise normal star sapphire shimmers with a pale aura and floats serenely above your hand, lighter than air.
+
+STATISTICS:
+
+Weight: 2~
+     @48 = ~Malla's Soul Stone~
+     @49 = ~The small star sapphire gem that holds the soul of the innocent young woman, Malla, has the magical ability to float about the forehead and act as an ioun stone of considerable power. Only those of little conscience would consider using this device, however.
+
+STATISTICS:
+
+Equipped abilities:
+– Dexterity: +1
+– Constitution: +1
+
+Charge abilities:
+– Neutralize Poison once per day
+  Special: Heals 10 Hit Points and cures poison, disease, deafness, and blindness
+  Range: 10 ft.
+  Area of Effect: 1 creature
+
+Weight: 2~
+     @50 = ~Deep Red Ioun Stone~
+     @51 = ~Originally crafted for a master thief, this deep red ioun stone was found—along with most of a gnome's skull—inside the shell of a giant clam off the Sword Coast. Although its power has since been used in more noble causes by hunters, weavers, and one particularly vain harpist, the stone remains an invaluable asset to those of a less honorable bent.
+
+STATISTICS:
+
+Equipped abilities:
+– Dexterity: +1
+
+Weight: 0~
+     @52 = ~Scarlet/Blue Ioun Stone~
+     @53 = ~Many stories have been told about Chief Geraq's rise to power within his tribe of Swivelback goblins. Some point to his talent for strategy, feeding his tribe for weeks on the spoils of a single raid, while others look to his knowledge of obscure lore. The truth is both less interesting and more: the source of Geraq's power was a strange stone, which the goblin carried everywhere he went. Where he found the stone is a mystery, as well as where it went after Geraq's mysterious disappearance, but holding it in one's hand, one can hear the whispers of Geraq's expertise sounding across the centuries. Of course, the whispers are all spoken in the language of goblins, making them more or less useless to the humanoid races; even so, the stone bestows greater knowledge on any who possess it.
+
+STATISTICS:
+
+Equipped abilities:
+– Intelligence: +1
+
+Weight: 0~
+     @54 = ~Clear Ioun Stone~
+     @55 = ~This ioun stone has had many owners over the centuries, from the thief who carried it as a good luck charm to the ogre who thought it to be the world's smallest crystal ball. It was once even used by a gnome as a prosthetic eye, although its properties did not improve her vision. Eventually the stone fell into the hands of a group of elven wizards. It is uncertain whether it was used for research purposes or merely worn for protection against hostile magic. Unlike common ioun stones, this one appears to be colorless and almost entirely transparent.
+
+STATISTICS:
+
+Equipped abilities:
+– Magic Resistance: 5%
+
+Weight: 0~
+     @74 = ~Ioun Stone~
+     @75 = ~This is a small stone that floats in an orbit around the owner's head. Simply equip the stone to set it in its orbit. These obviously magical stones have different properties depending on their color.
+
+STATISTICS:
+
+Weight: 0~
+     @76 = ~Trollblood Ioun Stone~
+     @77 = ~This ioun stone gleams dark green, like a hardened globe of troll blood. Legend tells of its creation from the blood of seven different trolls, each one captured and then subjected to magical experiments for seven nights. The resulting ioun stone both grants its user a weaker form a troll's healing ability and increases their martial prowess against trolls.
+
+STATISTICS:
+
+Equipped abilities:
+– THAC0: +3 vs. trolls
+– Regenerate 1 Hit Point per round
+
+Weight: 0~
+     @78 = ~Blood Red Ioun Stone~
+     @79 = ~This spherical stone gleams crimson, like a hardened globe of blood. Once activated, it can enhance the wearer's hand-eye coordination, reflexes, and balance, which makes it a highly prized accessory among rogues.
+
+STATISTICS:
+
+Equipped abilities:
+– Dexterity: +1
+– Weapon Speed Factor: +2
+
+Weight: 0~
+     @80 = ~Pearly White Ioun Stone~
+     @81 = ~Legend tells us that this particular type of ioun stone is crafted with the enslaved soul of a troll. This pearly white ioun stone will grant the wearer the ability to regenerate at a rate of 1 Hit Point every 5 rounds.
+
+STATISTICS:
+
+Equipped abilities:
+– Regenerate 1 Hit Point every 5 rounds
+
+Weight: 0~
+     @82 = ~Dusty Rose Ioun Stone~
+     @83 = ~This ioun stone glows with a dusty rose hue, hinting at calming images and sensations. While pleasing, it does not appear to enhance the basic protection enchantment upon it.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +1
+
+Weight: 0~
+     @84 = ~Pale Green Ioun Stone~
+     @85 = ~On his deathbed, aged hero Rigar Trueblood begged one last request of his mage companion Spectorial: that his skill and fortitude as a warrior live on. The reluctant friend consented and transferred these traits to an item, knowing the warrior's soul would then be lacking them. This pale green ioun stone now holds these essences and grants the owner Trueblood's health and skill.
+
+STATISTICS:
+
+Equipped abilities:
+– THAC0: +1
+– Hit Points: +10%
+
+Weight: 0~
+     @86 = ~Golden Ioun Stone~
+     @87 = ~Highly sought out by wizards, this ioun stone raises the intelligence of those who possess it.
+
+STATISTICS:
+
+Equipped abilities:
+– Intelligence: +1
+
+Weight: 0~
+     @88 = ~Obsidian Ioun Stone~
+     @89 = ~The tough obsidian stone imbues its owner with a similar hardiness.
+
+STATISTICS:
+
+Equipped abilities:
+– Constitution: +1
+
+Weight: 0~
+     @90 = ~Silver Ioun Stone~
+     @91 = ~Perhaps the silver and gray in this stone hints at the knowledge that only comes with age and experience.
+
+STATISTICS:
+
+Equipped abilities:
+– Wisdom: +1
+
+Weight: 0~
+     @92 = ~Lavender Ioun Stone~
+     @93 = ~The bright lavender hue of this stone dances and sparkles, as if the stone itself were alive.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +1
+– Save vs. Death: +4
+
+Weight: 0~
