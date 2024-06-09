@@ -4,8 +4,7 @@ SUPPORT "https://github.com/mentaltyranny/Eldritch-Magic-Reborn/issues"
 VERSION v0.1
 AUTO_EVAL_STRINGS
 
-WITH_TRA
-    "%MOD_FOLDER%/lang/english/setup.tra" 
+LOAD_TRA "%MOD_FOLDER%/lang/%LANGUAGE%/setup.tra"
 
 /// Language options
 LANGUAGE 
