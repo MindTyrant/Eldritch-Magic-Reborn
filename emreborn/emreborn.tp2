@@ -1,10 +1,11 @@
 /** @tra setup.tra */
-BACKUP "Eldritch_Magic/backup"
-BACKUP "%MOD_FOLDER%/backup"
-AUTHOR ~mindtyrant1024@gmail.com~
-README ~"%MOD_FOLDER%/README.md~
-VERSION v0.01
+BACKUP "emreborn/backup"
+SUPPORT "https://github.com/mentaltyranny/Eldritch-Magic-Reborn/issues"
+VERSION v0.1
 AUTO_EVAL_STRINGS
+
+WITH_TRA
+    "%MOD_FOLDER%/lang/english/setup.tra" 
 
 /// Language options
 LANGUAGE 
@@ -19,6 +20,6 @@ REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @0
 INCLUDE ~%MOD_FOLDER%/components/10_ioun.tpa~
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
-BEGIN "Bladesinger" DESIGNATED 100
+BEGIN "Bladesinger Kit" DESIGNATED 100
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 PRINT "Here is some text"
