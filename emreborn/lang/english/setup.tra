@@ -2,7 +2,81 @@
 
      @0 = ~This component is not available for your game.~
 
-     
+     @10 = ~This light but strong mail reinforces the sylvan elf physique. Although exceedingly rare, it is granted only to especially brave elves. Seldom is this armor be found outside of a wood elf tribe, and rarer still on someone not of elven lineage.
+
+STATISTICS:
+
+Equipped abilities:
+– Strength: +1
+– Open Locks: -5%
+– Find Traps: -5%
+– Pick Pockets: -20%
+– Move Silently: -10%
+– Spellcasting is not disabled
+
+Armor Class: 3 (1 vs. slashing, 5 vs. crushing)
+Requires:
+ 5 Strength
+
+Weight: 10~
+     @12 = ~Silence~
+     @13 = ~Silenced~
+     @14 = ~TThe Bards of Melody were a small band of half-elf bardic warriors who entertained and defended scattered elven communities throughout Calimshan. Enchantments allowed only minstrels to wear their armor, the magical links sliding together to produce beautiful melodies as they danced or fought. While the Bards of Melody were disbanded hundreds of years ago, fortunately one secret of "playing" the armor did not fade with them.
+
+STATISTICS:
+
+Equipped abilities:
+– Vocalize
+– Open Locks: -5%
+– Find Traps: -5%
+– Pick Pockets: -20%
+– Move Silently: -10%
+– Spellcasting is not disabled
+
+Armor Class: 2 (0 vs. slashing, 4 vs. crushing)
+Requires:
+ 5 Strength
+
+Weight: 12~
+     @16 = ~Eldritch Chain +4~
+     @17 = ~The lore of this suit is difficult to determine, either due to the occult nature of the summoned creatures of which it provides protection or the fact that there are multiple copies of this powerful armor. Secrecy would certainly be desirable, as even rumors of production not tied to a holy order such as this could provoke deadly interest. Nevertheless, this eldritch item is the first of series of armors that will become the pinnacle of elven craft.
+
+STATISTICS:
+
+Equipped abilities:
+– Intelligence: +1
+– Protection from Evil
+– Open Locks: -5%
+– Find Traps: -5%
+– Pick Pockets: -20%
+– Move Silently: -10%
+– Spellcasting is not disabled 
+
+Armor Class: 1 (-1 vs. slashing, 3 vs. crushing)
+Requires:
+ 5 Strength
+
+Weight: 15~
+     @19 = ~You gots Eldritch chain mail, I sees. Elven chain? If you gets scroll for protection from normal weapons and LOTS of gold, I can makes even better! Impressive, huh? But you don't gots right now.~
+     @20 = ~You gots Eldritch chain mail, I sees. Elven chain? I have recipes that makes even better, I do. I uses your scroll protection from normal weapons and 40,000 gp. You wants?~
+     @22 = ~While in exile from Myth Drannor, Aslyferund learned the secret of fashioning powerful elven armor by gilding and heavily enchanting normal elven chain. Alas, many of his contemporary smiths asked for his secrets and would provide no more detail than given here. Some say his refusal to divulge this secret lead to his eventual murder. 
+
+STATISTICS:
+
+Equipped abilities:
+– Physical Damage Resistance: +25%
+– Immunity to normal weapons
+– Open Locks: -5%
+– Find Traps: -5%
+– Pick Pockets: -20%
+– Move Silently: -10%
+– Spellcasting is not disabled
+
+Armor Class: 0 (-2 vs. slashing, 2 vs. crushing)
+Requires:
+ 5 Strength
+
+Weight: 20~
      @42 = ~Bronze Ioun Stone~
      @43 = ~The powerful enchantments on this ioun stone make it a treasure eagerly sought after by wizards.
 
@@ -163,3 +237,237 @@ Equipped abilities:
 – Save vs. Death: +4
 
 Weight: 0~
+
+
+     @100 = ~Bladesinger~
+     @101 = ~bladesinger~
+     @102 = ~BLADESINGER: Of the roving Elves, there are few as deadly as the Bladesingers of Clan Lion. They are experts in the long sword and have spent their lives studying their chosen weapon. They have also learned to cast spells while engaged in combat, and thus they double their might.
+
+Advantages:
+– +1 to hit and damage rolls. 
+– May achieve High Mastery (four slots) in long swords.
+– May use the three Bladesong abilities. Only one bladesong may be used each round, and its use does not count as your spell for the round. To receive the effects from a bladesong requires a one-handed melee weapon and an empty off-hand, and may not be used with a shield, ranged weapon, or armor heavier than chain mail. Using a bladesong removes the effects of any other bladesong, and for 8 hours provides the following effects:
+
+SONG OF DEFENSE: Grants a +1 bonus to Armor Class. This bonus improves to +2 at fighter level 11 and +3 at fighter level 21.
+
+SONG OF VICTORY: Grants a +1 to hit rolls. This improves to +2 at fighter level 11 and +3 at fighter level 21.
+
+SONG OF CELERITY: Grants a -1 bonus to Speed Factor. This bonus to Speed Factor improves to -2 at fighter level 11 and -3 at fighter level 21.
+
+– Blindfighting: Immune to blindness.
+– Counterspell: Gain a +1 bonus to Saving Throws vs. Spell. This bonus improves to +1 for every six mage levels. 
+– Arcane Fury: At mage level 5, inflicts critical damage on an attack roll of 19 or 20. 
+– Arcane Strike: At mage level 15, may make an additional attack per every other round. 
+
+Disadvantages:
+– Race restricted to Elf.
+– Maintaining counterspell makes spellcasting more difficult, giving a +2 penalty to Casting Time.
+– Incurs an additional -1 nonproficiency penalty to hit rolls (for a total of -3).
+– Starts with two fewer starting weapon proficiencies, earns additional weapon proficiencies every four levels instead of every three.
+– May not exceed Proficiency (one slot) in weapons (except for long sword).
+– May not place any slots in Single-Weapon Style. 
+– May not exceed Proficiency (one slot) in any other fighting style. 
+– Alignment restricted to any lawful or good.~
+     @103 = ~BLADESINGER: Of the roving Elves, there are few as deadly as the Bladesingers of Clan Lion. They are experts in the long sword and have spent their lives studying their chosen weapon. They have also learned to cast spells while engaged in combat, and thus they double their might.~
+     @110 = ~Song of Defense~ //embs1
+     @111 = ~Grants the Bladesinger a +1 bonus to Armor Class. This bonus improves to +2 at fighter level 11 and +3 at fighter level 21.
+
+Song of Defense is a bladesong; it provides the above-mentioned effects for 8 hours, as well as remove the effects of any other bladesong. To receive the effects from Song of Defense requires a one-handed melee weapon and an empty off-hand, and may not be used with a shield, ranged weapon, or armor heavier than chain mail.  Using Song of Defense counts as your one use of a bladesong for the round and is instant and does not count as your casting for the round.~
+     @114 = ~Song of Victory~ //embs2
+     @115 = ~Grants the Bladesinger a +1 to hit rolls. This improves to +2 at fighter level 11 and +3 at fighter level 21.
+
+Song of Victory is a bladesong; it provides the above-mentioned effects for 8 hours, as well as remove the effects of any other bladesong. To receive the effects from Song of Victory requires a one-handed melee weapon and an empty off-hand, and may not be used with a shield, ranged weapon, or armor heavier than chain mail.  Using Song of Victory counts as your one use of a bladesong for the round and is instant and does not count as your casting for the round.~
+     @118 = ~Song of Celerity~ //embs3
+     @119 = ~Grants the Bladesinger a -1 bonus to Speed Factor. This bonus to Speed Factor improves to -2 at fighter level 11 and -3 at fighter level 21.
+
+Song of Celerity is a bladesong; it provides the above-mentioned effects for 8 hours, as well as remove the effects of any other bladesong. To receive the effects from Song of Celerity requires a one-handed melee weapon and an empty off-hand, and may not be used with a shield, ranged weapon, or armor heavier than chain mail.  Using Song of Celerity counts as your one use of a bladesong for the round and is instant and does not count as your casting for the round.~
+
+     @120 = ~Blindfighting~
+     @121 = ~Grants the Bladesinger immunity to blindness.~
+     @122 = ~Weapon Fundamentals~
+     @123 = ~Grants the Bladesinger +1 to hit and damage rolls.~
+     @124 = ~Counterspell~
+     @125 = ~Grants the Bladesinger a +1 bonus to Saving Throws vs. Spell. This bonus improves to +1 for every six mage levels. Maintaining counterspell makes spellcasting more difficult, giving a +2 penalty to Casting Time.~
+     @126 = ~Arcane Fury~
+     @127 = ~At mage level 5, the Bladesinger inflicts critical damage on an attack roll of 19 or 20.~
+     @128 = ~Arcane Strike~
+     @129 = ~At mage level 15, the Bladesinger may make an additional attack per every other round.~
+     @130 = ~You have been acknowledged as a journeyman Bladesinger.~
+     @132 = ~Silver Ring~
+     @133 = ~Bladesinger's Signet~
+     @134 = ~A ring is a small band of precious metal that is used as jewelry. Some rare rings have had enchantments placed upon them that confer various magical abilities. These rings are highly sought after, especially by those of the adventuring profession. This ring is an unadorned silver band. However, its plain appearance belies the powerful magic within.
+
+STATISTICS:
+
+Weight: 0~
+     @135 = ~These signet rings are masterfully enchanted, strengthening the wearer’s physical body while improving spell memorization. Specifically attuned to be usable only by Bladesingers, all journeymen receive one of these rings when their master or lodge says his or her training is complete. This creates a significant demand for these signet rings, requiring their recollection. Meaning any new journeyman may receive a new ring, or a legacy ring that once belonged to one of the many Bladesingers felled by the enemies of elf kind. Some consider receiving a legacy ring to be quite an honor, while others consider it a macabre omen… this, however, is a new ring, fresh from the forge.
+
+STATISTICS:
+
+Equipped abilities:
+– Strength: +1
+– Magic Resistance: +5%
+– Can memorize two extra 2nd-level spells, one extra 3rd-level spell, and one extra 4th-level spell
+– May not use with Ring of Acuity
+
+Weight: 0~
+     @136 = ~You may not use two Rings of Acuity at the same time.~
+     @140 = ~An artifact thought lost to time materializes among your possessions.~
+     @142 = ~Boots~
+     @143 = ~The Paws of the Lythari~
+     @144 = ~Boots are normally handmade by cobblers. Common boots are made by using a form, but good boots are designed for the foot of an individual.
+
+STATISTICS:
+
+Weight: 4~
+     @145 = ~The origin of these boots is in dispute, but one thing is clear: if they are of Elven origin, it is from a subrace of Elves not native to Faerûn. The debate stems from the fact that the needle work attaching the fur linings uses a remarkably similar pattern to what was used among Elves only several centuries ago. The fur lining itself, on the other hand, shows serval commonalities with a wolf not seen on Faerûn in many millennia, a type of Elven lycanthrope, called a Lythari. Despite both sides the debate accusing the other of perpetuating fraud, records show these boots were highly sought after by the fallen Bladesinger lodges, before being gifted and received by a line of Bladesinger masters and apprentices. During this time, these boots seem to disfavor use by Bladesingers having the disposition to dominate or control others.
+
+STATISTICS:
+
+Equipped abilities:
+– Extra 1/2 attack per round
+– Doubles movement rate
+
+Weight: 2~
+     @146 = ~Non-evil Bladesingers~
+     @150 = ~Elven Chain Mail~
+     @151 = ~Bladesong Chain +4~     
+     @152 = ~The delicate yet sturdy craftsmanship of the elven races allows them to design many beautiful yet utilitarian goods. Among these is elven chain mail, which is so finely wrought that it can be worn under normal clothing without revealing its presence. This and its lightness allows it to be worn by Thieves and Fighter/Mages with few restrictions.
+
+STATISTICS:
+
+Equipped abilities:
+– Open Locks: -5%
+– Find Traps: -5%
+– Pick Pockets: -20%
+– Move Silently: -10%
+– Spellcasting is not disabled
+
+Armor Class: 5 (3 vs. slashing, 7 vs. crushing)
+Requires:
+ 5 Strength
+
+Weight: 7~
+     @153 = ~After years refining his craft, this suit was supposed to be the first of many Elven armors utilizing a new technique by the elven smith Aslyferund. By connecting each chain to its six neighbors instead of the usual four, he was able to weave intricate arcane patterns directly into armor. This allowed him to place additional enchantments "layered underneath" his old designs, like the image of a lion’s head, which roars as wearer moves, and load enough to break any magical silence. Arcane wards form a pattern of protection throughout, preventing attack by mundane weaponry; this has protected many Elven heroes in the eight intervening centuries. Their heroism transcended this artifact, favoring those who do not indulge in the petty whims of individuality. So, it may be no coincidence <CHARNAME> found this suit in Nizidramanii'yt’s hoard during the Time of Troubles. Fate flipped a coin, deciding to advance <CHARNAME>’s righteous cause, rather than aid in <PRO_HISHER> defeat. 
+
+STATISTICS:
+
+Equipped abilities:
+– Strength: +1
+– Intelligence: +1
+– Immune to normal weapons
+– Protection from Evil
+– Vocalize
+– Open Locks: -5%
+– Find Traps: -5%
+– Pick Pockets: -20%
+– Move Silently: -10%
+– Spellcasting is not disabled
+
+Armor Class: 1 (-1 vs. slashing, 3 vs. crushing)
+Requires:
+ 5 Strength
+
+Weight: 15~
+     @154 = ~Non-choatic Bladesingers~
+     @156 = ~Infernal Chain~
+     @157 = ~Cespenarian Chain +5~
+     @158 = ~This looks like a particularly delicate suit of chain. Whatever Cespenar did to craft this suit, it is now covered by a pattern of symbols, so infernal in their character, there is no need to decipher them to know their nature. The chain mesh now covers areas which elven chain left open or loose for stealth and thievery. Still, this suit is of immense value to fighter/mages with few restrictions.
+
+STATISTICS:
+
+Equipped abilities:
+– Spellcasting is not disabled
+
+Armor Class: 5 (3 vs. slashing, 7 vs. crushing)
+Requires:
+ 5 Strength
+
+Weight: 12~
+     @159 = ~Being that this powerful armor was only recently rewoven, gilded, and reenchanted, there is little lore beyond that of the components Cespenar used when he fashioned it. Nevertheless, Cespenar interwove each chain into it ten neighbors the new infernal markings into the preexisting arcane patterns so seamlessly that he improved its protection. The fact that the imp, and former “butler” to the deceased god of Murder, was able to improve upon the work of Aslyferund speaks volumes, and casts suspicion that the elven smith was in fact murdered by Cespenar and that he was the rival smith, jealous of his secrets. Whatever happened, Aslyferund's secrets appear to belong to Cespenar now…
+
+STATISTICS:
+
+Equipped abilities:
+– Intelligence: +2
+– All fire damage inflicted by the wearer is increased by 10%
+– Immume to level drain
+– Immune to normal and +1 weapons
+– Spellcasting is not disabled
+
+Armor Class: 0 (-2 vs. slashing, 2 vs. crushing)
+Requires:
+ 5 Strength
+
+Weight: 12~
+     @161 = ~One Level Drained~
+     @162 = ~Two Levels Drained~
+     @163 = ~Three Levels Drained~
+     @164 = ~Four Levels Drained~
+     @165 = ~Five Levels Drained~
+     @166 = ~Lawful gnomish, human, half-elven, or elven fighter/mages~
+     @168 = ~You gots Bladesong chain mail, I sees. Elven chain? If you gets scroll for protection from magic weapons and LOTS of gold, I can makes even better! Impressive, huh? But you don't gots right now.~
+     @169 = ~You gots Bladesong chain mail, I sees. Elven chain? I have recipes that makes even better, I do. I uses your scroll protection from magic weapons and 80,000 gp. You wants?~
+     @180 = ~You are an exemplar and a hero amongst Elves. As the new bearer of the Artblade, you would be wise not to abuse such a gift.~
+     @182 = ~Elfblade~
+     @183 = ~Artblade +4~
+     @185 = ~This blade appears as if made of darkness, its shape that of a tangible black void, outlined in a crimson streak which is the source of the blade's light. It crackles like lightning when drawn and creates a sharp buzzing sound when swung, like that of an angry bee. An elvish rune of magic sits near the blade’s pommel, and when examined, two words seem to emanate from deep within the subconscious, “self” and “identify;” the blade is clearly trying to communicate. After further examination, their meaning snaps into focus, challenging you by pressing the identification rune below. You become intuitively aware this will start something called the Blade-rite.
+
+STATISTICS:
+
+Charge abilities:
+– Identify x1/day, x3/day after resting; can be used as a scroll of identity to instantly reveal an item's unknown effects; can be used to identify itself
+
+Damage: 1d8 (slashing)
+Speed Factor: 5
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
+     @186 = ~After passing the Blade-rite, a test occurring completely within the imagination of the applicant, and privy only to <PRO_HIMHER>self, the sword established a magical bond with <CHARNAME> as its rightful wielder. In ancient times, this bond came with the militant post of Spell-Major or the Defender by Art, having the solemn duty of upkeeping the magical defenses of Cormanthor forest and commanding the arcane branch of the military. Since the fall of Myth Drannor over six centuries ago, this post has been vacant, and now the wielder of Artblade owes the responsibility of providing magical defense to all Elf people.
+
+STATISTICS:
+
+Combat abilities:
+– Chance to score a critical hit: +10% (this weapon only)
+
+
+Equipped abilities:
+– Constitution: +4
+– Armor Class: +2
+– All acid/cold/electricity/fire damage inflicted by the weilder is increased by 5%
+– Improves casting speed by 2
+
+Charge abilities:
+– Sunray (casting level 25) x1/day; Hostile: 3d6 dmg, Save vs. Spell or blinded (1 turn); Undead: +1d6 dmg/casting level (Save vs. Spell or 1000 magic dmg); Range: 20 ft.; Area: 15-ft. radius
+– Dispel Magic (casting level 25) x3/day; Range: 40 ft.; AoE: 15-ft. radius; 50% base dispel, increases 5%/casting over original caster. decreases 10%/casting level below orignal caster
+– Identify x3/day; when examining an unknown magical item, can be used as a scroll to instantly reveal any unknown effects
+
+THAC0: +4
+Damage: 1d8+4, +2d6 vs. evil creatures
+Damage type: Slashing, + Magic
+Speed Factor: 3
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 15 Strength
+ 17 Intelligence
+
+Weight: 4~
+     @187 = ~Good Bladesingers~
+     @188 = ~(The sword seems to flash for a moment, then your mind is permeated with melodic Elven whispers.)~
+     @189 = ~(The sword gives a single flash, then the whispers stop.)~
+     @190 = ~(There is a series of flashes and then elven words pierce the whispers as if set to rhythm) "The Blade-rite..." (then suddenly, as if the notion had just been conceived), "...determines whether one is worthy of an Elfblade." (The voice is slow and sounds almost artificial, its words continue just above the whispers.) "You are worthy." (The sword flashes yet again, but the final flash hangs at the end.) "Be warned, the Artblade does not sense the Mythals; if the Coronal Kingdom is no more, the Retreat may have begun. You are now charged with the magical protection of all elf people."~
+     @191 = ~(After another series of flashes, a shockingly demi-human sigh can be heard above the whispers) "The Artblade..." (and again, after a pause pregnant with angst and contempt), "...does not know." (The angst and contempt lifts at the end, revealing it is not aimed at you.)~
+     @192 = ~(The whispers go silent for a moment, and when they return, they seem much louder, like being in a crowded social event surrounded by everyone talking.  Then, the expected flashes finally come.) "Hectaoncheire..." "...Hundredhanded one..." (then abruptly,) "A few Gods fell that day."  (Just before you respond, a final series of words permeate the whispers.) "Pray you never face one, much less two."~
+     @193 = ~(The whisper goes silent again, then the sword gives its expectant flashes) "The Artblade does not know. You are opposing the evil Bhaalspawn still, are you not?" Then the whispers return.~
+     @194 = ~Never mind. Let us just continue on for now.~
+     @195 = ~What is a Blade-rite? Was it a test? If so, did I pass it? What happens now?~
+     @196 = ~What are you? Were you always a sword? Tell me about you.~
+     @197 = ~What's the most powerful foe you have vanquished?~
+     @198 = ~What would you do in my situation, Artblade?~
+
+
+

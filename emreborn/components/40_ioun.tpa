@@ -495,3 +495,5 @@ ACTION_IF GAME_IS ~iwdee~ BEGIN
     COPY ~%MOD_FOLDER%/bam/ioun/iwdee/ohioun02.bam~ ~override~
     COPY ~%MOD_FOLDER%/bam/ioun/iwdee/ohioun03.bam~ ~override~
 END
+
+PRINT ~Thank you for installing: "Multiple Ioun Stones"~

@@ -1,0 +1,45 @@
+/** @tra setup.tra */
+ACTION_IF GAME_IS ~bgee bg2ee eet iwdee~ BEGIN
+    COPY_EXISTING ~CHAN14.ITM~ ~override~ //Modified Slyvan Chain +2
+        LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 44 target = 1 parameter1 = 1 parameter2 = 0 timing = 2 resist_dispel = 2 END
+        SAY IDENTIFIED_DESC @10
+        WRITE_LONG ITM_price 8700
+    BUT_ONLY
+    COPY_EXISTING ~CHAN15.ITM~ ~override~ //Modified Melodic Chain +3
+        LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 101 target = 1 parameter2 = 38 timing = 2 resist_dispel = 2 END
+        LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 = RESOLVE_STR_REF(@12) timing = 2 resist_dispel = 2 END
+        LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 267 target = 1 parameter1 = RESOLVE_STR_REF(@13) timing = 2 resist_dispel = 2 END
+        LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 169 target = 1 parameter2 = 34 timing = 2 resist_dispel = 2 END
+        LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 142 target = 1 parameter2 = 103 timing = 2 resist_dispel = 2 END
+        SAY IDENTIFIED_DESC @14
+        WRITE_LONG ITM_price 11000
+        WRITE_LONG ITM_usability_flags 0x60040000
+        WRITE_BYTE ITM_kit_usability1 0x30
+        WRITE_BYTE ITM_kit_usability4 0x04
+    BUT_ONLY
+    COPY_EXISTING ~CHAN16.ITM~ ~override~ //New Eldritch Chain +4
+        LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 19 target = 1 parameter1 = 1 parameter2 = 0 timing = 2 resist_dispel = 2 END
+        LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 142 target = 1 parameter2 = 9 timing = 2 resist_dispel = 2 END
+        LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 100 target = 1 parameter1 = 9 parameter2 = 7 timing = 2 resist_dispel = 2 END        
+        LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 219 target = 1 parameter1 = 3 parameter2 = 8 timing = 2 resist_dispel = 2 END 
+        SAY NAME2 @16
+        SAY IDENTIFIED_DESC @17
+        WRITE_LONG ITM_price 45000
+    BUT_ONLY
+    OUTER_SPRINT recipe_short @19
+    OUTER_SPRINT recipe_tweak @20
+    STRING_SET_EVALUATE 66897 ~%recipe_short%~
+    STRING_SET_EVALUATE 66898 ~%recipe_tweak%~
+    COPY_EXISTING ~CHAN19.ITM~ ~override~ //New Elven Chain +5
+        LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 86 target = 1 parameter1 = 25 parameter2 = 0 timing = 2 resist_dispel = 2 END
+        LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 87 target = 1 parameter1 = 25 parameter2 = 0 timing = 2 resist_dispel = 2 END
+        LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 88 target = 1 parameter1 = 25 parameter2 = 0 timing = 2 resist_dispel = 2 END
+        LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 89 target = 1 parameter1 = 25 parameter2 = 0 timing = 2 resist_dispel = 2 END
+        SAY IDENTIFIED_DESC @22 
+        WRITE_LONG ITM_price 62000
+        WRITE_SHORT ITM_lore_to_id 85
+        WRITE_LONG ITM_weight 20
+    BUT_ONLY
+END
+
+ PRINT ~Thank you for installing: "Eldritch Armors"~
