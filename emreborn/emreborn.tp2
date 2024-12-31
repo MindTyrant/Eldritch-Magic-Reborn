@@ -1,8 +1,9 @@
 /** @tra setup.tra */
 BACKUP "weidu_external/emreborn/backup"
-AUTHOR "MindTyrant (mindtyrant1024@gmail.com)"
-SUPPORT "https://github.com/mentaltyranny/Eldritch-Magic-Reborn/issues"
+AUTHOR ~Mindtyrant1024@gmail.com~
+
 VERSION v0.12
+README ~emreborn/README.txt~
 AUTO_EVAL_STRINGS
 
 // "EM" prefix reserved by Abdel_Adrian (https://forums.beamdog.com/profile/Abdel_Adrian) as of June 23rd, 2015 (http://www.blackwyrmlair.net/prefixes/)
@@ -19,18 +20,23 @@ LANGUAGE
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 BEGIN "Eldritch Armors" DESIGNATED 10
+GROUP @100
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @0
 
 INCLUDE ~%MOD_FOLDER%/components/10_armor.tpa~  
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 BEGIN "Congenio's Pebble Collection" DESIGNATED 40
+GROUP @100
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @0
 
 INCLUDE ~%MOD_FOLDER%/components/40_ioun.tpa~  
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 BEGIN "Bladesinger Kit" DESIGNATED 100
+GROUP @101
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @0
 
-INCLUDE ~%MOD_FOLDER%/components/100_bladesinger.tpa~
+INCLUDE ~%MOD_FOLDER%/components/100_bladesinger.tpa~  
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
