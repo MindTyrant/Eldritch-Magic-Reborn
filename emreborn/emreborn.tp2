@@ -23,7 +23,7 @@ BEGIN "Eldritch Armors" DESIGNATED 10
 GROUP @100
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @0
 
-INCLUDE ~%MOD_FOLDER%/components/10_armor.tpa~  
+INCLUDE ~%MOD_FOLDER%/components/10_armors.tpa~  
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 BEGIN "Congenio's Pebble Collection" DESIGNATED 40
