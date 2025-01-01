@@ -172,12 +172,12 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
       BUT_ONLY IF_EXISTS
 
       // Makes sure Bladesinger's clab table is installed
-      PATCH_IF (NOT FILE_EXISTS_IN_GAME ~clabem01.2da~) BEGIN
+      ACTION_IF (NOT FILE_EXISTS_IN_GAME ~clabem01.2da~) BEGIN
             COPY ~%MOD_FOLDER%/2da/clabem01.2da~ ~override~
       END
 
       // Makes sure Bladesinger's High-Level Ability file is installed
-      PATCH_IF (NOT FILE_EXISTS_IN_GAME ~luem0.2da~) BEGIN
+      ACTION_IF (NOT FILE_EXISTS_IN_GAME ~luem0.2da~) BEGIN
             COPY ~%MOD_FOLDER%/2da/luem0.2da~ ~override~
       END
 
