@@ -3,7 +3,6 @@ BACKUP "weidu_external/emreborn/backup"
 AUTHOR ~Mindtyrant1024@gmail.com~
 
 VERSION v0.12
-README ~emreborn/README.txt~
 AUTO_EVAL_STRINGS
 
 // "EM" prefix reserved by Abdel_Adrian (https://forums.beamdog.com/profile/Abdel_Adrian) as of June 23rd, 2015 (http://www.blackwyrmlair.net/prefixes/)
