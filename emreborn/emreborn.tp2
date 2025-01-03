@@ -9,6 +9,8 @@ AUTO_EVAL_STRINGS
 
 ALWAYS
     INCLUDE ~%MOD_FOLDER%/lib/a7#add_kit_ex.tpa~
+    OUTER_SPRINT BGFORGE_LIB_DIR "%MOD_FOLDER%/lib/bgforge"
+    INCLUDE ~%BGFORGE_LIB_DIR%/main.tpa~
 END
 
 /// Language options
