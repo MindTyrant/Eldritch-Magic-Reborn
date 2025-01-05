@@ -21,7 +21,7 @@ Requires:
 Weight: 10~
      @12 = ~Silence~
      @13 = ~Silenced~
-     @14 = ~TThe Bards of Melody were a small band of half-elf bardic warriors who entertained and defended scattered elven communities throughout Calimshan. Enchantments allowed the minstrels to produce beautiful melodies as they danced or fought, by sliding the magical chain links together. While the Bards of Melody were disbanded hundreds of years ago, fortunately not all the secrets of "playing" the armor faded with them.
+     @14 = ~The Bards of Melody were a small band of half-elf bardic warriors who entertained and defended scattered elven communities throughout Calimshan. Enchantments allowed the minstrels to produce beautiful melodies as they danced or fought, by sliding the magical chain links together. While the Bards of Melody were disbanded hundreds of years ago, fortunately not all the secrets of "playing" the armor faded with them.
 
 STATISTICS:
 
@@ -248,11 +248,11 @@ Advantages:
 – May achieve High Mastery (four slots) in long swords.
 – May use the three Bladesong abilities. Only one bladesong may be used each round, and its use does not count as your spell for the round. To receive the effects from a bladesong requires a one-handed melee weapon and an empty off-hand, and may not be used with a shield, ranged weapon, or armor heavier than chain mail. Using a bladesong removes the effects of any other bladesong, and for 8 hours provides the following effects:
 
-SONG OF DEFENSE: Grants a +1 bonus to Armor Class. This bonus improves to +2 at fighter level 11 and +3 at fighter level 21.
+SONG OF DEFENSE: Grants a +2 bonus to Armor Class. This bonus improves to +3 at fighter level 11 and +4 at fighter level 21.
 
-SONG OF VICTORY: Grants a +1 to hit rolls. This improves to +2 at fighter level 11 and +3 at fighter level 21.
+SONG OF VICTORY: Grants a +2 to hit rolls. This improves to +3 at fighter level 11 and +4 at fighter level 21.
 
-SONG OF CELERITY: Grants a -1 bonus to Speed Factor. This bonus to Speed Factor improves to -2 at fighter level 11 and -3 at fighter level 21.
+SONG OF CELERITY: Grants a -1 bonus to Speed Factor with weapons. This bonus improves to -2 at fighter level 11 and -3 at fighter level 21.
 
 – Blindfighting: Immune to blindness.
 – Countersong: Gain a +1 bonus to Saving Throws vs. Spell. This bonus improves by +1 every six mage levels. Maintaining counterspell makes spellcasting more difficult, giving a +2 penalty to Casting Time.
@@ -269,24 +269,24 @@ Disadvantages:
 – Alignment restricted to any lawful or good.~
      @103 = ~BLADESINGER: Of the roving Elves, there are few as deadly as the Bladesingers of Clan Lion. They are experts in the long sword and have spent their lives studying their chosen weapon. They have also learned to cast spells while engaged in combat, and thus they double their might.~
      @110 = ~Song of Defense~ //embs1
-     @111 = ~Grants the Bladesinger a +1 bonus to Armor Class. This bonus improves to +2 at fighter level 11 and +3 at fighter level 21.
+     @111 = ~Grants the Bladesinger a +2 bonus to Armor Class. This bonus improves to +3 at fighter level 11 and +4 at fighter level 21.
 
 Song of Defense is a bladesong; it provides the above-mentioned effects for 8 hours, as well as remove the effects of any other bladesong. To receive the effects from Song of Defense requires a one-handed melee weapon and an empty off-hand, and may not be used with a shield, ranged weapon, or armor heavier than chain mail.  Using Song of Defense counts as your one use of a bladesong for the round and is instant and does not count as your casting for the round.~
      @114 = ~Song of Victory~ //embs2
-     @115 = ~Grants the Bladesinger a +1 to hit rolls. This improves to +2 at fighter level 11 and +3 at fighter level 21.
+     @115 = ~Grants the Bladesinger a +2 to hit rolls. This improves to +3 at fighter level 11 and +4 at fighter level 21.
 
 Song of Victory is a bladesong; it provides the above-mentioned effects for 8 hours, as well as remove the effects of any other bladesong. To receive the effects from Song of Victory requires a one-handed melee weapon and an empty off-hand, and may not be used with a shield, ranged weapon, or armor heavier than chain mail.  Using Song of Victory counts as your one use of a bladesong for the round and is instant and does not count as your casting for the round.~
      @118 = ~Song of Celerity~ //embs3
-     @119 = ~Grants the Bladesinger a -1 bonus to Speed Factor. This bonus to Speed Factor improves to -2 at fighter level 11 and -3 at fighter level 21.
+     @119 = ~Grants the Bladesinger a -1 bonus to Speed Factor with weapons. This bonus to Speed Factor improves to -2 at fighter level 11 and -3 at fighter level 21.
 
 Song of Celerity is a bladesong; it provides the above-mentioned effects for 8 hours, as well as remove the effects of any other bladesong. To receive the effects from Song of Celerity requires a one-handed melee weapon and an empty off-hand, and may not be used with a shield, ranged weapon, or armor heavier than chain mail.  Using Song of Celerity counts as your one use of a bladesong for the round and is instant and does not count as your casting for the round.~
 
      @120 = ~Blindfighting~
      @121 = ~Grants the Bladesinger immunity to blindness.~
-     @122 = ~Weapon Fundamentals~
+     @122 = ~The Fundamentals~
      @123 = ~Grants the Bladesinger +1 to hit and damage rolls.~
      @124 = ~Counterspell~
-     @125 = ~Grants the Bladesinger a +1 bonus to Saving Throws vs. Spell. This bonus improves by +1 for every six mage levels. Maintaining counterspell makes spellcasting more difficult, giving a +2 penalty to Casting Time.~=-
+     @125 = ~Grants the Bladesinger a +1 bonus to Saving Throws vs. Spell. This bonus improves by +1 for every six mage levels. Maintaining counterspell makes spellcasting more difficult, giving a +2 penalty to Casting Time.~
      @126 = ~Arcane Fury~
      @127 = ~At mage level 5, the Bladesinger inflicts critical damage on an attack roll of 19 or 20.~
      @128 = ~Arcane Strike~
