@@ -21,7 +21,7 @@ Requires:
 Weight: 10~
      @12 = ~Silence~
      @13 = ~Silenced~
-     @14 = ~TThe Bards of Melody were a small band of half-elf bardic warriors who entertained and defended scattered elven communities throughout Calimshan. Enchantments allowed only minstrels to wear their armor, the magical links sliding together to produce beautiful melodies as they danced or fought. While the Bards of Melody were disbanded hundreds of years ago, fortunately one secret of "playing" the armor did not fade with them.
+     @14 = ~TThe Bards of Melody were a small band of half-elf bardic warriors who entertained and defended scattered elven communities throughout Calimshan. Enchantments allowed the minstrels to produce beautiful melodies as they danced or fought, by sliding the magical chain links together. While the Bards of Melody were disbanded hundreds of years ago, fortunately not all the secrets of "playing" the armor faded with them.
 
 STATISTICS:
 
@@ -39,7 +39,7 @@ Requires:
 
 Weight: 12~
      @16 = ~Eldritch Chain +4~
-     @17 = ~The lore of this suit is difficult to determine, either due to the occult nature of the summoned creatures of which it provides protection or the fact that there are multiple copies of this powerful armor. Secrecy would certainly be desirable, as even rumors of production not tied to a holy order such as this could provoke deadly interest. Nevertheless, this eldritch item is the first of series of armors that will become the pinnacle of elven craft.
+     @17 = ~The lore of this suit is difficult to determine, either due to the occult nature of the summoned creatures of which it provides protection or the fact that there are multiple copies of this powerful armor. Secrecy would certainly be desirable, as even rumors of such production not tied to a holy order could provoke deadly interest. Nevertheless, this eldritch armor is the first of series that will become the pinnacle of the elven craft.
 
 STATISTICS:
 
@@ -59,7 +59,7 @@ Requires:
 Weight: 15~
      @19 = ~You gots Eldritch chain mail, I sees. Elven chain? If you gets scroll for protection from normal weapons and LOTS of gold, I can makes even better! Impressive, huh? But you don't gots right now.~
      @20 = ~You gots Eldritch chain mail, I sees. Elven chain? I have recipes that makes even better, I do. I uses your scroll protection from normal weapons and 40,000 gp. You wants?~
-     @22 = ~While in exile from Myth Drannor, Aslyferund learned the secret of fashioning powerful elven armor by gilding and heavily enchanting normal elven chain. Alas, many of his contemporary smiths asked for his secrets and would provide no more detail than given here. Some say his refusal to divulge this secret lead to his eventual murder. 
+     @22 = ~While in exile from Myth Drannor, Aslyferund learned the secret of fashioning powerful elven armor by gilding and heavily enchanting normal elven chain. Alas, many of his contemporaries asked for his secrets and he would refuse. Some say his refusal to divulge this secret lead to his eventual murder. 
 
 STATISTICS:
 
@@ -255,13 +255,12 @@ SONG OF VICTORY: Grants a +1 to hit rolls. This improves to +2 at fighter level 
 SONG OF CELERITY: Grants a -1 bonus to Speed Factor. This bonus to Speed Factor improves to -2 at fighter level 11 and -3 at fighter level 21.
 
 – Blindfighting: Immune to blindness.
-– Counterspell: Gain a +1 bonus to Saving Throws vs. Spell. This bonus improves to +1 for every six mage levels. 
+– Countersong: Gain a +1 bonus to Saving Throws vs. Spell. This bonus improves by +1 every six mage levels. Maintaining counterspell makes spellcasting more difficult, giving a +2 penalty to Casting Time.
 – Arcane Fury: At mage level 5, inflicts critical damage on an attack roll of 19 or 20. 
 – Arcane Strike: At mage level 15, may make an additional attack per every other round. 
 
 Disadvantages:
 – Race restricted to Elf.
-– Maintaining counterspell makes spellcasting more difficult, giving a +2 penalty to Casting Time.
 – Incurs an additional -1 nonproficiency penalty to hit rolls (for a total of -3).
 – Starts with two fewer starting weapon proficiencies, earns additional weapon proficiencies every four levels instead of every three.
 – May not exceed Proficiency (one slot) in weapons (except for long sword).
@@ -287,7 +286,7 @@ Song of Celerity is a bladesong; it provides the above-mentioned effects for 8 h
      @122 = ~Weapon Fundamentals~
      @123 = ~Grants the Bladesinger +1 to hit and damage rolls.~
      @124 = ~Counterspell~
-     @125 = ~Grants the Bladesinger a +1 bonus to Saving Throws vs. Spell. This bonus improves to +1 for every six mage levels. Maintaining counterspell makes spellcasting more difficult, giving a +2 penalty to Casting Time.~
+     @125 = ~Grants the Bladesinger a +1 bonus to Saving Throws vs. Spell. This bonus improves by +1 for every six mage levels. Maintaining counterspell makes spellcasting more difficult, giving a +2 penalty to Casting Time.~=-
      @126 = ~Arcane Fury~
      @127 = ~At mage level 5, the Bladesinger inflicts critical damage on an attack roll of 19 or 20.~
      @128 = ~Arcane Strike~

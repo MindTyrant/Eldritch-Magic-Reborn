@@ -24,5 +24,4 @@ jobs:
       suffix: version
       naming: tp2
       name_fmt: '<%base_name%><-%extra%><-%version%>'
-
-    include_submodules: 'recursive'
+      include_submodules: 'true'
