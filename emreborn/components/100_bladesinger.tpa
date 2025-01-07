@@ -191,7 +191,7 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
             SAY IDENTIFIED_DESC @135
             SAY 0x76 @136
             WRITE_LONG 0x1c6 IDS_OF_SYMBOL (KIT em_bladesinger)
-            SAY 0x1ee @100
+            SAY 0x1ee @139
       COPY_EXISTING "RING40.ITM" ~override~
             LPF ADD_ITEM_EQEFFECT   INT_VAR opcode = 180 target = 1 parameter1 = RESOLVE_STR_REF(@136) parameter2 = 0 timing = 2 resist_dispel = 2    STR_VAR resource = ~embs07~   END
       BUT_ONLY IF_EXISTS
@@ -203,7 +203,7 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
             SAY UNIDENTIFIED_DESC @144
             SAY IDENTIFIED_DESC @145
             WRITE_LONG 0x106 IDS_OF_SYMBOL (KIT em_bladesinger)
-            SAY 0x12e @146
+            SAY 0x12e @139
       ACTION_IF (MOD_IS_INSTALLED ~emreborn.tp2~ ~10~) THEN BEGIN
             COPY  ~%MOD_FOLDER%/itm/emchan16.itm~ ~override~ //New Unique Bladesong Chain +4 
                   SAY NAME1 @150
@@ -214,7 +214,7 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
                   SAY 0x346 @12
                   SAY 0x376 @13
                   WRITE_LONG 0x4c6 IDS_OF_SYMBOL (KIT em_bladesinger)      
-                  SAY 0x4ee @154
+                  SAY 0x4ee @139
             COPY_EXISTING "dragblac.cre" ~override~
                   REPLACE_CRE_ITEM "emchan16.itm" #0 #0 #0 NONE INV6
             BUT_ONLY IF_EXISTS
@@ -229,6 +229,7 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
                   SAY 0x2b6 @163
                   SAY 0x2e6 @164
                   SAY 0x316 @165
+                  WRITE_LONG 0x496 IDS_OF_SYMBOL (KIT em_bladesinger)      
                   SAY 0x4be @166
             COPY_EXISTING ~botsmith.dlg~  ~override~
                   DECOMPILE_AND_PATCH BEGIN

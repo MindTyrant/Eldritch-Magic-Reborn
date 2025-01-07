@@ -311,6 +311,7 @@ Equipped abilities:
 
 Weight: 0~
      @136 = ~You may not use two Rings of Acuity at the same time.~
+     @139 = ~Bladesingers~
      @140 = ~An artifact thought lost to time materializes among your possessions.~
      @142 = ~Boots~
      @143 = ~The Paws of the Lythari~
@@ -319,7 +320,7 @@ Weight: 0~
 STATISTICS:
 
 Weight: 4~
-     @145 = ~The origin of these boots is in dispute, but one thing is clear: if they are of Elven origin, it is from a subrace of Elves not native to Faerûn. The debate stems from the fact that the needle work attaching the fur linings uses a remarkably similar pattern to what was used among Elves only several centuries ago. The fur lining itself, on the other hand, shows serval commonalities with a wolf not seen on Faerûn in many millennia, a type of Elven lycanthrope, called a Lythari. Despite both sides the debate accusing the other of perpetuating fraud, records show these boots were highly sought after by the fallen Bladesinger lodges, before being gifted and received by a line of Bladesinger masters and apprentices. During this time, these boots seem to disfavor use by Bladesingers having the disposition to dominate or control others.
+     @145 = ~The origin of these boots is in dispute, but one thing is clear: if they are of Elven origin, it is from a subrace of Elves not native to Faerûn. The debate stems from the fact that the needle work attaching the fur linings uses a remarkably similar pattern to what was used among Elves only several centuries ago. The fur lining itself, on the other hand, shows serval commonalities with a wolf not seen on Faerûn in many millennia, a type of Elven lycanthrope, called a Lythari. Despite both sides the debate accusing the other of perpetuating fraud, records show these boots were highly sought after by the fallen Bladesinger lodges, before being gifted and received by a line of Bladesinger masters and apprentices.
 
 STATISTICS:
 
@@ -328,7 +329,6 @@ Equipped abilities:
 – Doubles movement rate
 
 Weight: 2~
-     @146 = ~Non-evil Bladesingers~
      @150 = ~Elven Chain Mail~
      @151 = ~Bladesong Chain +4~     
      @152 = ~The delicate yet sturdy craftsmanship of the elven races allows them to design many beautiful yet utilitarian goods. Among these is elven chain mail, which is so finely wrought that it can be worn under normal clothing without revealing its presence. This and its lightness allows it to be worn by Thieves and Fighter/Mages with few restrictions.
@@ -368,10 +368,9 @@ Requires:
  5 Strength
 
 Weight: 15~
-     @154 = ~Non-choatic Bladesingers~
      @156 = ~Infernal Chain~
      @157 = ~Cespenarian Chain +5~
-     @158 = ~This looks like a particularly delicate suit of chain. Whatever Cespenar did to craft this suit, it is now covered by a pattern of symbols, so infernal in their character, there is no need to decipher them to know their nature. The chain mesh now covers areas which elven chain left open or loose for stealth and thievery. Still, this suit is of immense value to fighter/mages with few restrictions.
+     @158 = ~This looks like a particularly delicate suit of chain. Whatever Cespenar did to craft this suit, it is now covered by a pattern of symbols, so infernal in their character, there is no need to decipher them to know their nature. The chain mesh now covers areas which elven chain left open or loose for stealth and thievery. Still, there is enough flexibility in the armor to allow for spellcasting.
 
 STATISTICS:
 
@@ -404,7 +403,7 @@ Weight: 12~
      @163 = ~Three Levels Drained~
      @164 = ~Four Levels Drained~
      @165 = ~Five Levels Drained~
-     @166 = ~Lawful gnomish, human, half-elven, or elven fighter/mages~
+     @166 = ~Non-chaotic Bladesingers~
      @168 = ~You gots Bladesong chain mail, I sees. Elven chain? If you gets scroll for protection from magic weapons and LOTS of gold, I can makes even better! Impressive, huh? But you don't gots right now.~
      @169 = ~You gots Bladesong chain mail, I sees. Elven chain? I have recipes that makes even better, I do. I uses your scroll protection from magic weapons and 80,000 gp. You wants?~
      @180 = ~You are an exemplar and a hero amongst Elves. As the new bearer of the Artblade, you would be wise not to abuse such a gift.~
@@ -455,10 +454,10 @@ Requires:
  17 Intelligence
 
 Weight: 4~
-     @187 = ~Good Bladesingers~
+     @187 = ~Non-evil Bladesingers~
      @188 = ~(The sword seems to flash for a moment, then your mind is permeated with melodic Elven whispers.)~
      @189 = ~(The sword gives a single flash, then the whispers stop.)~
-     @190 = ~(There is a series of flashes and then elven words pierce the whispers as if set to rhythm) "The Blade-rite..." (then suddenly, as if the notion had just been conceived), "...determines whether one is worthy of an Elfblade." (The voice is slow and sounds almost artificial, its words continue just above the whispers.) "You are worthy." (The sword flashes yet again, but the final flash hangs at the end.) "Be warned, the Artblade does not sense the Mythals; if the Coronal Kingdom is no more, the Retreat may have begun. You are now charged with the magical protection of all elf people."~
+     @190 = ~(There is a series of flashes and then elven words pierce the whispers as if set to rhythm) "The Blade-rite..." (then suddenly, as if the notion had just been conceived), "...determines whether one is worthy of an Elfblade." (The voice is slow and sounds almost artificial, its words continue just above the whispers.) "You are worthy." (The sword flashes yet again, but the final flash hangs at the end.) "Be warned, the Artblade does not sense the Mythals; if the Coronal Kingdom is no more, the Retreat may have begun. You are now charged with the magical protection of all elf people, no matter where they may reside."~
      @191 = ~(After another series of flashes, a shockingly demi-human sigh can be heard above the whispers) "The Artblade..." (and again, after a pause pregnant with angst and contempt), "...does not know." (The angst and contempt lifts at the end, revealing it is not aimed at you.)~
      @192 = ~(The whispers go silent for a moment, and when they return, they seem much louder, like being in a crowded social event surrounded by everyone talking.  Then, the expected flashes finally come.) "Hectaoncheire..." "...Hundredhanded one..." (then abruptly,) "A few Gods fell that day."  (Just before you respond, a final series of words permeate the whispers.) "Pray you never face one, much less two."~
      @193 = ~(The whisper goes silent again, then the sword gives its expectant flashes) "The Artblade does not know. You are opposing the evil Bhaalspawn still, are you not?" Then the whispers return.~
