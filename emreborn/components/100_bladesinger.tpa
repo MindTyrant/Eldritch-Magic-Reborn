@@ -138,27 +138,26 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
             SAY UNIDENTIFIED_DESC @121
       BUT_ONLY
       COPY  ~%MOD_FOLDER%/spl/emcl11.spl~ ~override~
-            SAY NAME1 @122
-            SAY UNIDENTIFIED_DESC @123
+            SAY UNIDENTIFIED_DESC @122
       BUT_ONLY
       COPY  ~%MOD_FOLDER%/spl/emcl12.spl~ ~override~
-            SAY NAME1 @124
-            SAY UNIDENTIFIED_DESC @125
+            SAY NAME1 @123
+            SAY UNIDENTIFIED_DESC @124
       BUT_ONLY
       COPY  ~%MOD_FOLDER%/spl/emcl13.spl~ ~override~
-            SAY NAME1 @124
-            SAY UNIDENTIFIED_DESC @125
+            SAY NAME1 @125
+            SAY UNIDENTIFIED_DESC @126
       BUT_ONLY
       COPY  ~%MOD_FOLDER%/spl/emcl14.spl~ ~override~
-            SAY NAME1 @126
-            SAY UNIDENTIFIED_DESC @127
+            SAY NAME1 @127
+            SAY UNIDENTIFIED_DESC @128
       BUT_ONLY            
       COPY  ~%MOD_FOLDER%/spl/emcl15.spl~ ~override~
-            SAY NAME1 @128
-            SAY UNIDENTIFIED_DESC @129
+            SAY NAME1 @129
+            SAY UNIDENTIFIED_DESC @130
       BUT_ONLY
 
-      //Reduces proficiences; does so for classes, but not kits. So it will affect all F/M, not just Bladesingers.  Thankfully, there are no vanilla F/M companions. Do not use with Khalid as F/M mod.
+      //Reduces proficiences; does so for classes, but not kits. So it will affect all F/M, not just Bladesingers.  Thankfully, there are no vanilla F/M companions. Do not use with Khalid or Xan as F/M mod.
       COPY_EXISTING ~profs.2da~ ~override~
             COUNT_2DA_ROWS 3 rowcount
             FOR (row=0;row < rowcount;++row) BEGIN

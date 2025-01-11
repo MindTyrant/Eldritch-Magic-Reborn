@@ -28,12 +28,13 @@ Advantages:
   SONG OF CELERITY: Grants a -1 bonus to Speed Factor with weapons. This bonus to Speed Factor improves to -2 at fighter level 11 and -3 at fighter level 21.
 
 - Blindfighting: Immune to blindness.
-- Countersong: Gain a +1 bonus to Saving Throws vs. Spell. This bonus improves by +1 for every six mage levels. Maintaining counterspell makes spellcasting more difficult, giving a +2 penalty to Casting Time.
+- Countersong: Gain a +1 bonus to Saving Throws vs. Spell. This bonus improves by +1 for every six mage levels. 
 - Arcane Fury: At mage level 5, inflicts critical damage on an attack roll of 19 or 20. 
 - Arcane Strike: At mage level 15, may make an additional attack every other round. 
 
 Disadvantages:
 - Race restricted to Elf.
+- One-handed Casting: Suffers a -2 penalty to casting speed.
 - Incurs an additional -1 nonproficiency penalty to hit rolls (for a total of -3).
 - Starts with two fewer starting weapon proficiencies, earns additional weapon proficiency at every four levels instead of every three.
 - May not exceed Proficiency (one slot) in weapons (except for long sword).
