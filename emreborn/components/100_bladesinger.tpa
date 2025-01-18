@@ -209,7 +209,6 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
                   SAY NAME2 @151
                   SAY UNIDENTIFIED_DESC @152
                   SAY IDENTIFIED_DESC @153
-                  WRITE_LONG ITM_price 52000
                   SAY 0x346 @12
                   SAY 0x376 @13
                   WRITE_LONG 0x4c6 IDS_OF_SYMBOL (KIT em_bladesinger)      
@@ -222,7 +221,6 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
                   SAY NAME2 @157
                   SAY UNIDENTIFIED_DESC @158
                   SAY IDENTIFIED_DESC @159
-                  WRITE_LONG ITM_price 67000
                   SAY 0x256 @161
                   SAY 0x286 @162
                   SAY 0x2b6 @163
@@ -342,9 +340,9 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
                                           LPF ADD_ITEM_EQEFFECT   INT_VAR opcode = 318 target = 1 parameter1 = 4 parameter2 = %nosws_row% timing = 2 resist_dispel = 0  STR_VAR resource = ~embs1~    END
                                           LPF ADD_ITEM_EQEFFECT   INT_VAR opcode = 318 target = 1 parameter1 = 4 parameter2 = %nosws_row% timing = 2 resist_dispel = 0  STR_VAR resource = ~embs2~    END
                                           LPF ADD_ITEM_EQEFFECT   INT_VAR opcode = 318 target = 1 parameter1 = 4 parameter2 = %nosws_row% timing = 2 resist_dispel = 0  STR_VAR resource = ~embs3~    END
-                                          LPF ADD_ITEM_EQEFFECT   INT_VAR opcode = 321 timing = 0 duration = 1                                                          STR_VAR resource = ~embs1~    END
-                                          LPF ADD_ITEM_EQEFFECT   INT_VAR opcode = 321 timing = 0 duration = 1                                                          STR_VAR resource = ~embs2~    END
-                                          LPF ADD_ITEM_EQEFFECT   INT_VAR opcode = 321 timing = 0 duration = 1                                                          STR_VAR resource = ~embs3~    END
+                                          LPF ADD_ITEM_EQEFFECT   INT_VAR opcode = 321 timing = 0 duration = 1    STR_VAR resource = ~embs1~    END
+                                          LPF ADD_ITEM_EQEFFECT   INT_VAR opcode = 321 timing = 0 duration = 1    STR_VAR resource = ~embs2~    END
+                                          LPF ADD_ITEM_EQEFFECT   INT_VAR opcode = 321 timing = 0 duration = 1    STR_VAR resource = ~embs3~    END
                                           LPF ADD_ITEM_EQEFFECT   INT_VAR opcode = 233 target = 1 parameter1 = 2 parameter2 = (134 + (0x10000 * 1)) timing = 2 resist_dispel = 0    END
                                     END ELSE BEGIN
                                           LPF ADD_ITEM_EQEFFECT   INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2   STR_VAR resource = ~embs1~ END

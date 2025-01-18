@@ -1,499 +1,412 @@
 /** @tra setup.tra */
 ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
     COPY ~%MOD_FOLDER%/itm/ioun/bdioun01.itm~ ~override~ // Trollblood Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @76
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @77
+        SAY NAME1 @42
+        SAY NAME2 @44
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @45
     COPY ~%MOD_FOLDER%/itm/ioun/emi01.itm~ ~override~ // Trollblood Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @76
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @77
+        SAY NAME1 @42
+        SAY NAME2 @44
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @45
     COPY ~%MOD_FOLDER%/itm/ioun/bdioun02.itm~ ~override~ // Blood Red Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @78
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @79
+        SAY NAME1 @42
+        SAY NAME2 @47
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @48
     COPY ~%MOD_FOLDER%/itm/ioun/emi02.itm~ ~override~ // Blood Red Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @78
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @79
+        SAY NAME1 @42
+        SAY NAME2 @47
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @48
+    COPY ~%MOD_FOLDER%/itm/ioun/bdmisc05.itm~ ~override~ // Purification Stone
+        SAY NAME1 @42
+        SAY NAME2 @50
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @51
+    COPY ~%MOD_FOLDER%/itm/ioun/emm05.itm~ ~override~ // Purification Stone
+        SAY NAME1 @42
+        SAY NAME2 @50
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @51
     COPY ~%MOD_FOLDER%/itm/ioun/helm18.itm~ ~override~ // Pearly White Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @80
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @81
+        SAY NAME1 @42
+        SAY NAME2 @53
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @54
     COPY ~%MOD_FOLDER%/itm/ioun/emi03.itm~ ~override~ // Pearly White Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @80
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @81
+        SAY NAME1 @42
+        SAY NAME2 @53
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @54
     COPY ~%MOD_FOLDER%/itm/ioun/helm19.itm~ ~override~ // Dusty Rose Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @82
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @83
+        SAY NAME1 @42
+        SAY NAME2 @56
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @57
     COPY ~%MOD_FOLDER%/itm/ioun/emi04.itm~ ~override~ // Dusty Rose Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @82
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @83
+        SAY NAME1 @42
+        SAY NAME2 @56
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @57
     COPY ~%MOD_FOLDER%/itm/ioun/helm20.itm~ ~override~ // Pale Green Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @84
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @85
+        SAY NAME1 @42
+        SAY NAME2 @59
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @60
     COPY ~%MOD_FOLDER%/itm/ioun/emi05.itm~ ~override~ // Pale Green Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @84
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @85
+        SAY NAME1 @42
+        SAY NAME2 @59
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @60
     COPY ~%MOD_FOLDER%/itm/ioun/helm23.itm~ ~override~ // Golden Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @86
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @87
+        SAY NAME1 @42
+        SAY NAME2 @62
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @63
     COPY ~%MOD_FOLDER%/itm/ioun/emi06.itm~ ~override~ // Golden Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @86
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @87
+        SAY NAME1 @42
+        SAY NAME2 @62
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @63
     COPY ~%MOD_FOLDER%/itm/ioun/helm24.itm~ ~override~ // Obsidian Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @88
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @89
+        SAY NAME1 @42
+        SAY NAME2 @65
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @66
     COPY ~%MOD_FOLDER%/itm/ioun/emi07.itm~ ~override~ // Obsidian Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @88
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @89
+        SAY NAME1 @42
+        SAY NAME2 @65
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @66
     COPY ~%MOD_FOLDER%/itm/ioun/helm25.itm~ ~override~ // Silver Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @90
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @91
+        SAY NAME1 @42
+        SAY NAME2 @68
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @69
     COPY ~%MOD_FOLDER%/itm/ioun/emi08.itm~ ~override~ // Silver Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @90
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @91
+        SAY NAME1 @42
+        SAY NAME2 @68
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @69
     COPY ~%MOD_FOLDER%/itm/ioun/helm26.itm~ ~override~ // Lavender Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @92
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @93
+        SAY NAME1 @42
+        SAY NAME2 @71
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @72
     COPY ~%MOD_FOLDER%/itm/ioun/emi09.itm~ ~override~ // Lavender Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @92
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @93
+        SAY NAME1 @42
+        SAY NAME2 @71
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @72
     COPY ~%MOD_FOLDER%/itm/ioun/helm27.itm~ ~override~ // Bronze Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @42
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @43
+        SAY NAME1 @42
+        SAY NAME2 @74
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @75
     COPY ~%MOD_FOLDER%/itm/ioun/emi10.itm~ ~override~ // Bronze Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @42
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @43
+        SAY NAME1 @42
+        SAY NAME2 @74
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @75
     COPY ~%MOD_FOLDER%/itm/ioun/helm34.itm~ ~override~ // Wong Fei's Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @44
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @45
+        SAY NAME1 @42
+        SAY NAME2 @77
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @78
     COPY ~%MOD_FOLDER%/itm/ioun/emi11.itm~ ~override~ // Wong Fei's Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @44
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @45
+        SAY NAME1 @42
+        SAY NAME2 @77
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @78
     COPY ~%MOD_FOLDER%/itm/ioun/amsoul01.itm~ ~override~ // Malla's Soul Stone
-        SAY NAME1 @46
-        SAY NAME2 @48
-        SAY UNIDENTIFIED_DESC @47
-        SAY DESC @49
+        SAY NAME1 @80
+        SAY NAME2 @82
+        SAY UNIDENTIFIED_DESC @81
+        SAY DESC @83
     COPY ~%MOD_FOLDER%/itm/ioun/emi12.itm~ ~override~ // Malla's Soul Stone
-        SAY NAME1 @46
-        SAY NAME2 @48
-        SAY UNIDENTIFIED_DESC @47
-        SAY DESC @49
-    COPY ~%MOD_FOLDER%/itm/ioun/ohioun01.itm~ ~override~ // Deep Red Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @50
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @51
-    COPY ~%MOD_FOLDER%/itm/ioun/emi13.itm~ ~override~ // Deep Red Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @50
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @51
-    COPY ~%MOD_FOLDER%/itm/ioun/ohioun02.itm~ ~override~ // Scarlet/Blue Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @52
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @53
-    COPY ~%MOD_FOLDER%/itm/ioun/emi14.itm~ ~override~ // Scarlet/Blue Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @52
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @53
-    COPY ~%MOD_FOLDER%/itm/ioun/ohioun03.itm~ ~override~ // Clear Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @54
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @55
-    COPY ~%MOD_FOLDER%/itm/ioun/emi15.itm~ ~override~ // Clear Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @54
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @55
+        SAY NAME1 @80
+        SAY NAME2 @82
+        SAY UNIDENTIFIED_DESC @81
+        SAY DESC @83
     COPY ~%MOD_FOLDER%/spl/ioun/bdioun01.spl~ ~override~ // Trollblood Ioun Stone
-        SAY 0x8  @76
-        SAY 0x50 @77
+        SAY NAME1 @44
+        SAY UNIDENTIFIED_DESC @45
+        PATCH_IF (MOD_IS_INSTALLED  ~d0tweak~   ~Visual Ioun Stones~) BEGIN
+            LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
+                INT_VAR
+                    opcode		= 215
+                    target		= 1
+                    timing		= 9
+                    parameter2	= 1
+                STR_VAR
+                    resource		= "d0io4"
+            END
+        END
     COPY ~%MOD_FOLDER%/spl/ioun/bdioun02.spl~ ~override~ // Blood Red Ioun Stone
-        SAY 0x8  @78
-        SAY 0x50 @79
+        SAY NAME1  @47
+        SAY UNIDENTIFIED_DESC @48
+        PATCH_IF (MOD_IS_INSTALLED  ~d0tweak~   ~Visual Ioun Stones~) BEGIN
+            LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
+                INT_VAR
+                    opcode		= 215
+                    target		= 1
+                    timing		= 9
+                    parameter2	= 1
+                STR_VAR
+                    resource		= "d0io5"
+            END
+        END
+    COPY ~%MOD_FOLDER%/spl/ioun/bdmisc05.spl~ ~override~ // Purification Stone
+        SAY NAME1  @50
+        SAY UNIDENTIFIED_DESC @51
+        PATCH_IF (MOD_IS_INSTALLED  ~d0tweak~   ~Visual Ioun Stones~) BEGIN
+            LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
+                INT_VAR
+                    opcode		= 215
+                    target		= 1
+                    timing		= 9
+                    parameter2	= 1
+                STR_VAR
+                    resource		= "d0io2"
+            END
+        END
     COPY ~%MOD_FOLDER%/spl/ioun/helm18.spl~ ~override~ // Pearly White Ioun Stone
-        SAY 0x8  @80
-        SAY 0x50 @81
+        SAY NAME1  @53
+        SAY UNIDENTIFIED_DESC @54
+        PATCH_IF (MOD_IS_INSTALLED  ~d0tweak~   ~Visual Ioun Stones~) BEGIN
+            LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
+                INT_VAR
+                    opcode		= 215
+                    target		= 1
+                    timing		= 9
+                    parameter2	= 1
+                STR_VAR
+                    resource		= "d0io6"
+            END
+        END
     COPY ~%MOD_FOLDER%/spl/ioun/helm19.spl~ ~override~ // Dusty Rose Ioun Stone
-        SAY 0x8  @82
-        SAY 0x50 @83
+        SAY NAME1  @56
+        SAY UNIDENTIFIED_DESC @57
+        PATCH_IF (MOD_IS_INSTALLED  ~d0tweak~   ~Visual Ioun Stones~) BEGIN
+            LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
+                INT_VAR
+                    opcode		= 215
+                    target		= 1
+                    timing		= 9
+                    parameter2	= 1
+                STR_VAR
+                    resource		= "d0io7"
+            END
+        END
     COPY ~%MOD_FOLDER%/spl/ioun/helm20.spl~ ~override~ // Pale Green Ioun Stone
-        SAY 0x8  @84
-        SAY 0x50 @85
+        SAY NAME1  @59
+        SAY UNIDENTIFIED_DESC @60
+        PATCH_IF (MOD_IS_INSTALLED  ~d0tweak~   ~Visual Ioun Stones~) BEGIN
+            LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
+                INT_VAR
+                    opcode		= 215
+                    target		= 1
+                    timing		= 9
+                    parameter2	= 1
+                STR_VAR
+                    resource		= "d0io4"
+            END
+        END
     COPY ~%MOD_FOLDER%/spl/ioun/helm23.spl~ ~override~ // Golden Ioun Stone
-        SAY 0x8  @86
-        SAY 0x50 @87
+        SAY NAME1  @62
+        SAY UNIDENTIFIED_DESC @63
+        PATCH_IF (MOD_IS_INSTALLED  ~d0tweak~   ~Visual Ioun Stones~) BEGIN
+            LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
+                INT_VAR
+                    opcode		= 215
+                    target		= 1
+                    timing		= 9
+                    parameter2	= 1
+                STR_VAR
+                    resource		= "d0io3"
+            END
+        END
     COPY ~%MOD_FOLDER%/spl/ioun/helm24.spl~ ~override~ // Obsidian Ioun Stone
-        SAY 0x8  @88
-        SAY 0x50 @89
+        SAY NAME1  @65
+        SAY UNIDENTIFIED_DESC @66
+        PATCH_IF (MOD_IS_INSTALLED  ~d0tweak~   ~Visual Ioun Stones~) BEGIN
+            LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
+                INT_VAR
+                    opcode		= 215
+                    target		= 1
+                    timing		= 9
+                    parameter2	= 1
+                STR_VAR
+                    resource		= "d0io1"
+            END
+        END
     COPY ~%MOD_FOLDER%/spl/ioun/helm25.spl~ ~override~ // Silver Ioun Stone
-        SAY 0x8  @90
-        SAY 0x50 @91
+        SAY NAME1  @68
+        SAY UNIDENTIFIED_DESC @69
+        PATCH_IF (MOD_IS_INSTALLED  ~d0tweak~   ~Visual Ioun Stones~) BEGIN
+            LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
+                INT_VAR
+                    opcode		= 215
+                    target		= 1
+                    timing		= 9
+                    parameter2	= 1
+                STR_VAR
+                    resource		= "d0io6"
+            END
+        END
     COPY ~%MOD_FOLDER%/spl/ioun/helm26.spl~ ~override~ // Lavender Ioun Stone
-        SAY 0x8  @92
-        SAY 0x50 @93
+        SAY NAME1  @71
+        SAY UNIDENTIFIED_DESC @72
+        PATCH_IF (MOD_IS_INSTALLED  ~d0tweak~   ~Visual Ioun Stones~) BEGIN
+            LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
+                INT_VAR
+                    opcode		= 215
+                    target		= 1
+                    timing		= 9
+                    parameter2	= 1
+                STR_VAR
+                    resource		= "d0io5"
+            END
+        END
     COPY ~%MOD_FOLDER%/spl/ioun/helm27.spl~ ~override~ // Bronze Ioun Stone
-        SAY 0x8  @42
-        SAY 0x50 @43
+        SAY NAME1  @74
+        SAY UNIDENTIFIED_DESC @75
+        PATCH_IF (MOD_IS_INSTALLED  ~d0tweak~   ~Visual Ioun Stones~) BEGIN
+            LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
+                INT_VAR
+                    opcode		= 215
+                    target		= 1
+                    timing		= 9
+                    parameter2	= 1
+                STR_VAR
+                    resource		= "d0io3"
+            END
+        END
     COPY ~%MOD_FOLDER%/spl/ioun/helm34.spl~ ~override~ // Wong Fei's Ioun Stone
-        SAY 0x8  @44
-        SAY 0x50 @45
+        SAY NAME1  @77
+        SAY UNIDENTIFIED_DESC @78
+        PATCH_IF (MOD_IS_INSTALLED  ~d0tweak~   ~Visual Ioun Stones~) BEGIN
+            LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
+                INT_VAR
+                    opcode		= 215
+                    target		= 1
+                    timing		= 9
+                    parameter2	= 1
+                STR_VAR
+                    resource		= "d0io4"
+            END
+        END
     COPY ~%MOD_FOLDER%/spl/ioun/amsoul01.spl~ ~override~ // Malla's Soul Stone
-        SAY 0x8  @48
-        SAY 0x50 @49
-    COPY ~%MOD_FOLDER%/spl/ioun/ohioun1.spl~ ~override~ // Deep Red Ioun Stone
-        SAY 0x8  @50
-        SAY 0x50 @51
-    COPY ~%MOD_FOLDER%/spl/ioun/ohioun2.spl~ ~override~ // Scarlet/Blue Ioun Stone
-        SAY 0x8  @52
-        SAY 0x50 @53
-    COPY ~%MOD_FOLDER%/spl/ioun/ohioun3.spl~ ~override~ // Clear Ioun Stone
-        SAY 0x8  @54
-        SAY 0x50 @55
+        SAY NAME1  @82
+        SAY UNIDENTIFIED_DESC @83
+        PATCH_IF (MOD_IS_INSTALLED  ~d0tweak~   ~Visual Ioun Stones~) BEGIN
+            LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
+                INT_VAR
+                    opcode		= 215
+                    target		= 1
+                    timing		= 9
+                    parameter2	= 1
+                STR_VAR
+                    resource		= "d0io2"
+            END
+        END
     COPY ~%MOD_FOLDER%/spl/ioun/emi01.spl~ ~override~ // Trollblood Ioun Stone
-        SAY 0x8  @76
-        SAY 0x50 @77
+        SAY NAME1  @46
+        SAY UNIDENTIFIED_DESC @45
     COPY ~%MOD_FOLDER%/spl/ioun/emi02.spl~ ~override~ // Blood Red Ioun Stone
-        SAY 0x8  @78
-        SAY 0x50 @79
+        SAY NAME1  @49
+        SAY UNIDENTIFIED_DESC @48
+    COPY ~%MOD_FOLDER%/spl/ioun/emm05.spl~ ~override~ // Purification Stone
+        SAY NAME1  @52
+        SAY UNIDENTIFIED_DESC @51
     COPY ~%MOD_FOLDER%/spl/ioun/emi03.spl~ ~override~ // Pearly White Ioun Stone
-        SAY 0x8  @80
-        SAY 0x50 @81
+        SAY NAME1  @55
+        SAY UNIDENTIFIED_DESC @54
     COPY ~%MOD_FOLDER%/spl/ioun/emi04.spl~ ~override~ // Dusty Rose Ioun Stone
-        SAY 0x8  @82
-        SAY 0x50 @83
+        SAY NAME1  @58
+        SAY UNIDENTIFIED_DESC @57
     COPY ~%MOD_FOLDER%/spl/ioun/emi05.spl~ ~override~ // Pale Green Ioun Stone
-        SAY 0x8  @84
-        SAY 0x50 @85
+        SAY NAME1  @61
+        SAY UNIDENTIFIED_DESC @60
     COPY ~%MOD_FOLDER%/spl/ioun/emi06.spl~ ~override~ // Golden Ioun Stone
-        SAY 0x8  @86
-        SAY 0x50 @87
+        SAY NAME1  @64
+        SAY UNIDENTIFIED_DESC @63
     COPY ~%MOD_FOLDER%/spl/ioun/emi07.spl~ ~override~ // Obsidian Ioun Stone
-        SAY 0x8  @88
-        SAY 0x50 @89
+        SAY NAME1  @67
+        SAY UNIDENTIFIED_DESC @66
     COPY ~%MOD_FOLDER%/spl/ioun/emi08.spl~ ~override~ // Silver Ioun Stone
-        SAY 0x8  @90
-        SAY 0x50 @91
+        SAY NAME1  @70
+        SAY UNIDENTIFIED_DESC @69
     COPY ~%MOD_FOLDER%/spl/ioun/emi09.spl~ ~override~ // Lavender Ioun Stone
-        SAY 0x8  @92
-        SAY 0x50 @93
+        SAY NAME1  @73
+        SAY UNIDENTIFIED_DESC @72
     COPY ~%MOD_FOLDER%/spl/ioun/emi10.spl~ ~override~ // Bronze Ioun Stone
-        SAY 0x8  @42
-        SAY 0x50 @43
+        SAY NAME1  @76
+        SAY UNIDENTIFIED_DESC @75
     COPY ~%MOD_FOLDER%/spl/ioun/emi11.spl~ ~override~ // Wong Fei's Ioun Stone
-        SAY 0x8  @44
-        SAY 0x50 @45
+        SAY NAME1  @79
+        SAY UNIDENTIFIED_DESC @78
     COPY ~%MOD_FOLDER%/spl/ioun/emi12.spl~ ~override~ // Malla's Soul Stone
-        SAY 0x8  @48
-        SAY 0x50 @49
-    COPY ~%MOD_FOLDER%/spl/ioun/emi13.spl~ ~override~ // Deep Red Ioun Stone
-        SAY 0x8  @50
-        SAY 0x50 @51
-    COPY ~%MOD_FOLDER%/spl/ioun/emi14.spl~ ~override~ // Scarlet/Blue Ioun Stone
-        SAY 0x8  @52
-        SAY 0x50 @53
-    COPY ~%MOD_FOLDER%/spl/ioun/emi15.spl~ ~override~ // Clear Ioun Stone
-        SAY 0x8  @54
-        SAY 0x50 @55
+        SAY NAME1  @84
+        SAY UNIDENTIFIED_DESC @83
     COPY ~%MOD_FOLDER%/bam/ioun/bdioun01.bam~ ~override~
     COPY ~%MOD_FOLDER%/bam/ioun/ibdion02.bam~ ~override~  
-    COPY ~%MOD_FOLDER%/bam/ioun/ohioun01.bam~ ~override~
-    COPY ~%MOD_FOLDER%/bam/ioun/ohioun02.bam~ ~override~
-    COPY ~%MOD_FOLDER%/bam/ioun/ohioun03.bam~ ~override~
 END
 
 ACTION_IF GAME_IS ~iwdee~ BEGIN
-    // 0x48-Hat -> 7-Helmet
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/bdioun01.itm~ ~override~ // Trollblood Ioun Stone BDIOUN01 -> IHELM20
-        SAY NAME1 @74
-        SAY NAME2 @76
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @77
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/emi01.itm~ ~override~ // Trollblood Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @76
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @77
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/bdioun02.itm~ ~override~ // Blood Red Ioun Stone IBDION02 -> OHIOUN01
-        SAY NAME1 @74
-        SAY NAME2 @78
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @79
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/emi02.itm~ ~override~ // Blood Red Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @78
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @79
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/helm18.itm~ ~override~ // Pearly White Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @80
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @81
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/emi03.itm~ ~override~ // Pearly White Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @80
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @81
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/helm19.itm~ ~override~ // Dusty Rose Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @82
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @83
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/emi04.itm~ ~override~ // Dusty Rose Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @82
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @83
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/helm20.itm~ ~override~ // Pale Green Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @84
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @85
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/emi05.itm~ ~override~ // Pale Green Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @84
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @85
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/helm23.itm~ ~override~ // Golden Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @86
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @87
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/emi06.itm~ ~override~ // Golden Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @86
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @87
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/helm24.itm~ ~override~ // Obsidian Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @88
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @89
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/emi07.itm~ ~override~ // Obsidian Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @88
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @89
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/helm25.itm~ ~override~ // Silver Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @90
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @91
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/emi08.itm~ ~override~ // Silver Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @90
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @91
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/helm26.itm~ ~override~ // Lavender Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @92
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @93
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/emi09.itm~ ~override~ // Lavender Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @92
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @93
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/helm27.itm~ ~override~ // Bronze Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @42
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @43
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/emi10.itm~ ~override~ // Bronze Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @42
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @43
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/helm34.itm~ ~override~ // Wong Fei's Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @44
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @45
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/emi11.itm~ ~override~ // Wong Fei's Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @44
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @45
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/amsoul01.itm~ ~override~ // Malla's Soul Stone
-        SAY NAME1 @46
-        SAY NAME2 @48
-        SAY UNIDENTIFIED_DESC @47
-        SAY DESC @49
-    COPY ~%MOD_FOLDER%/itm/ioun/iwdee/emi12.itm~ ~override~ // Malla's Soul Stone
-        SAY NAME1 @46
-        SAY NAME2 @48
-        SAY UNIDENTIFIED_DESC @47
-        SAY DESC @49
     COPY ~%MOD_FOLDER%/itm/ioun/iwdee/ohioun01.itm~ ~override~ // Deep Red Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @50
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @51
+        SAY NAME1 @42
+        SAY NAME2 @88
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @89
     COPY ~%MOD_FOLDER%/itm/ioun/iwdee/emi13.itm~ ~override~ // Deep Red Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @50
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @51
+        SAY NAME1 @42
+        SAY NAME2 @88
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @89
     COPY ~%MOD_FOLDER%/itm/ioun/iwdee/ohioun02.itm~ ~override~ // Scarlet/Blue Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @52
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @53
+        SAY NAME1 @42
+        SAY NAME2 @91
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @92
     COPY ~%MOD_FOLDER%/itm/ioun/iwdee/emi14.itm~ ~override~ // Scarlet/Blue Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @52
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @53
+        SAY NAME1 @42
+        SAY NAME2 @91
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @92
     COPY ~%MOD_FOLDER%/itm/ioun/iwdee/ohioun03.itm~ ~override~ // Clear Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @54
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @55
+        SAY NAME1 @42
+        SAY NAME2 @94
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @95
     COPY ~%MOD_FOLDER%/itm/ioun/iwdee/emi15.itm~ ~override~ // Clear Ioun Stone
-        SAY NAME1 @74
-        SAY NAME2 @54
-        SAY UNIDENTIFIED_DESC @75
-        SAY DESC @55
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/bdioun01.spl~ ~override~ // Trollblood Ioun Stone
-        SAY 0x8  @76
-        SAY 0x50 @77
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/bdioun02.spl~ ~override~ // Blood Red Ioun Stone
-        SAY 0x8  @78
-        SAY 0x50 @79
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/helm18.spl~ ~override~ // Pearly White Ioun Stone
-        SAY 0x8  @80
-        SAY 0x50 @81
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/helm19.spl~ ~override~ // Dusty Rose Ioun Stone
-        SAY 0x8  @82
-        SAY 0x50 @83
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/helm20.spl~ ~override~ // Pale Green Ioun Stone
-        SAY 0x8  @84
-        SAY 0x50 @85
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/helm23.spl~ ~override~ // Golden Ioun Stone
-        SAY 0x8  @86
-        SAY 0x50 @87
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/helm24.spl~ ~override~ // Obsidian Ioun Stone
-        SAY 0x8  @88
-        SAY 0x50 @89
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/helm25.spl~ ~override~ // Silver Ioun Stone
-        SAY 0x8  @90
-        SAY 0x50 @91
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/helm26.spl~ ~override~ // Lavender Ioun Stone
-        SAY 0x8  @92
-        SAY 0x50 @93
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/helm27.spl~ ~override~ // Bronze Ioun Stone
-        SAY 0x8  @42
-        SAY 0x50 @43
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/helm34.spl~ ~override~ // Wong Fei's Ioun Stone
-        SAY 0x8  @44
-        SAY 0x50 @45
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/amsoul01.spl~ ~override~ // Malla's Soul Stone
-        SAY 0x8  @48
-        SAY 0x50 @49
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/ohioun1.spl~ ~override~ // Deep Red Ioun Stone
-        SAY 0x8  @50
-        SAY 0x50 @51
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/ohioun2.spl~ ~override~ // Scarlet/Blue Ioun Stone
-        SAY 0x8  @52
-        SAY 0x50 @53
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/ohioun3.spl~ ~override~ // Clear Ioun Stone
-        SAY 0x8  @54
-        SAY 0x50 @55
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/emi01.spl~ ~override~ // Trollblood Ioun Stone
-        SAY 0x8  @76
-        SAY 0x50 @77
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/emi02.spl~ ~override~ // Blood Red Ioun Stone
-        SAY 0x8  @78
-        SAY 0x50 @79
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/emi03.spl~ ~override~ // Pearly White Ioun Stone
-        SAY 0x8  @80
-        SAY 0x50 @81
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/emi04.spl~ ~override~ // Dusty Rose Ioun Stone
-        SAY 0x8  @82
-        SAY 0x50 @83
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/emi05.spl~ ~override~ // Pale Green Ioun Stone
-        SAY 0x8  @84
-        SAY 0x50 @85
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/emi06.spl~ ~override~ // Golden Ioun Stone
-        SAY 0x8  @86
-        SAY 0x50 @87
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/emi07.spl~ ~override~ // Obsidian Ioun Stone
-        SAY 0x8  @88
-        SAY 0x50 @89
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/emi08.spl~ ~override~ // Silver Ioun Stone
-        SAY 0x8  @90
-        SAY 0x50 @91
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/emi09.spl~ ~override~ // Lavender Ioun Stone
-        SAY 0x8  @92
-        SAY 0x50 @93
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/emi10.spl~ ~override~ // Bronze Ioun Stone
-        SAY 0x8  @42
-        SAY 0x50 @43
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/emi11.spl~ ~override~ // Wong Fei's Ioun Stone
-        SAY 0x8  @44
-        SAY 0x50 @45
-    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/emi12.spl~ ~override~ // Malla's Soul Stone
-        SAY 0x8  @48
-        SAY 0x50 @49
+        SAY NAME1 @42
+        SAY NAME2 @94
+        SAY UNIDENTIFIED_DESC @43
+        SAY DESC @95
+    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/ohioun01.spl~ ~override~ // Deep Red Ioun Stone
+        SAY NAME1  @88
+        SAY UNIDENTIFIED_DESC @89
+    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/ohioun02.spl~ ~override~ // Scarlet/Blue Ioun Stone
+        SAY NAME1  @91
+        SAY UNIDENTIFIED_DESC @92
+    COPY ~%MOD_FOLDER%/spl/ioun/iwdee/ohioun03.spl~ ~override~ // Clear Ioun Stone
+        SAY NAME1  @94
+        SAY UNIDENTIFIED_DESC @95
     COPY ~%MOD_FOLDER%/spl/ioun/iwdee/emi13.spl~ ~override~ // Deep Red Ioun Stone
-        SAY 0x8  @50
-        SAY 0x50 @51
+        SAY NAME1  @90
+        SAY UNIDENTIFIED_DESC @89
     COPY ~%MOD_FOLDER%/spl/ioun/iwdee/emi14.spl~ ~override~ // Scarlet/Blue Ioun Stone
-        SAY 0x8  @52
-        SAY 0x50 @53
+        SAY NAME1  @93
+        SAY UNIDENTIFIED_DESC @92
     COPY ~%MOD_FOLDER%/spl/ioun/iwdee/emi15.spl~ ~override~ // Clear Ioun Stone
-        SAY 0x8  @54
-        SAY 0x50 @55
-    COPY ~%MOD_FOLDER%/bam/ioun/iwdee/bdioun01.bam~ ~override~
-    COPY ~%MOD_FOLDER%/bam/ioun/iwdee/ibdion02.bam~ ~override~
+        SAY NAME1  @96
+        SAY UNIDENTIFIED_DESC @95
     COPY ~%MOD_FOLDER%/bam/ioun/iwdee/ohioun01.bam~ ~override~
     COPY ~%MOD_FOLDER%/bam/ioun/iwdee/ohioun02.bam~ ~override~
     COPY ~%MOD_FOLDER%/bam/ioun/iwdee/ohioun03.bam~ ~override~
 END
 
-PRINT ~Thank you for installing: "Multiple Ioun Stones"~
+PRINT ~Thank you for installing: "Congenio's Pebble Collection"~

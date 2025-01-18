@@ -2,7 +2,7 @@
 ### Rebuilt Version of Eldritch Magic, Originally by AbdelAdrian
 ## By MindTyrant
 
-v0.1.2.4
+v0.1.2.5
 
 A mod for BG2EE and EET.  Some features may work with IWDEE. Currently, only windows platform is supported. Any volunteers who wish to help expand compatibility to other games and platforms should contact me at mindtyrant1024@gmail.com.
 

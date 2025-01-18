@@ -2,13 +2,14 @@
 BACKUP "weidu_external/emreborn/backup"
 AUTHOR ~Mindtyrant1024@gmail.com~
 
-VERSION v0.1.2.4
+VERSION v0.1.2.5
 AUTO_EVAL_STRINGS
 
 // "EM" prefix reserved by Abdel_Adrian (https://forums.beamdog.com/profile/Abdel_Adrian) as of June 23rd, 2015 (http://www.blackwyrmlair.net/prefixes/)
 
 ALWAYS
     INCLUDE ~%MOD_FOLDER%/lib/a7#add_kit_ex.tpa~
+    INCLUDE ~%MOD_FOLDER%/lib/macros.tpa~
     OUTER_SPRINT BGFORGE_LIB_DIR "%MOD_FOLDER%/lib/bgforge"
     INCLUDE ~%BGFORGE_LIB_DIR%/main.tpa~
 END
@@ -21,21 +22,21 @@ LANGUAGE
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 BEGIN "Eldritch Armors" DESIGNATED 10
-GROUP @100
+GROUP @1
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @0
 
 INCLUDE ~%MOD_FOLDER%/components/10_armors.tpa~  
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 BEGIN "Congenio's Pebble Collection" DESIGNATED 40
-GROUP @100
+GROUP @1
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @0
 
 INCLUDE ~%MOD_FOLDER%/components/40_ioun.tpa~  
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 BEGIN "Bladesinger Kit" DESIGNATED 100
-GROUP @101
+GROUP @2
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @0
 
 INCLUDE ~%MOD_FOLDER%/components/100_bladesinger.tpa~  
