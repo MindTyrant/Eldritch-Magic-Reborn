@@ -133,7 +133,7 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
     COPY ~%MOD_FOLDER%/spl/ioun/bdioun01.spl~ ~override~ // Trollblood Ioun Stone
         SAY NAME1 @44
         SAY UNIDENTIFIED_DESC @45
-        PATCH_IF (MOD_IS_INSTALLED  ~setup-d0tweak.tp2~ ~11~) BEGIN
+        PATCH_IF (MOD_IS_INSTALLED ~setup-d0tweak.tp2~ ~11~) BEGIN
             LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
                 INT_VAR
                     opcode		= 215
@@ -141,13 +141,13 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
                     timing		= 9
                     parameter2	= 1
                 STR_VAR
-                    resource		= "d0io4"
+                    resource	= "d0io4"
             END
         END
     COPY ~%MOD_FOLDER%/spl/ioun/bdioun02.spl~ ~override~ // Blood Red Ioun Stone
         SAY NAME1  @47
         SAY UNIDENTIFIED_DESC @48
-        PATCH_IF (MOD_IS_INSTALLED  ~setup-d0tweak.tp2~ ~11~) BEGIN
+        PATCH_IF (MOD_IS_INSTALLED ~setup-d0tweak.tp2~ ~11~) BEGIN
             LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
                 INT_VAR
                     opcode		= 215
@@ -155,13 +155,14 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
                     timing		= 9
                     parameter2	= 1
                 STR_VAR
-                    resource		= "d0io5"
+                    resource	= "d0io5"
             END
         END
+    COPY ~%MOD_FOLDER%/spl/ioun/emin404.spl~ ~override~ // Neutrize Poison Innate Power
     COPY ~%MOD_FOLDER%/spl/ioun/bdmisc05.spl~ ~override~ // Purification Stone
         SAY NAME1  @50
         SAY UNIDENTIFIED_DESC @51
-        PATCH_IF (MOD_IS_INSTALLED  ~setup-d0tweak.tp2~ ~11~) BEGIN
+        PATCH_IF (MOD_IS_INSTALLED ~setup-d0tweak.tp2~ ~11~) BEGIN
             LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
                 INT_VAR
                     opcode		= 215
@@ -169,13 +170,13 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
                     timing		= 9
                     parameter2	= 1
                 STR_VAR
-                    resource		= "d0io2"
+                    resource	= "d0io6"
             END
         END
     COPY ~%MOD_FOLDER%/spl/ioun/helm18.spl~ ~override~ // Pearly White Ioun Stone
         SAY NAME1  @53
         SAY UNIDENTIFIED_DESC @54
-        PATCH_IF (MOD_IS_INSTALLED  ~setup-d0tweak.tp2~ ~11~) BEGIN
+        PATCH_IF (MOD_IS_INSTALLED ~setup-d0tweak.tp2~ ~11~) BEGIN
             LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
                 INT_VAR
                     opcode		= 215
@@ -183,13 +184,13 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
                     timing		= 9
                     parameter2	= 1
                 STR_VAR
-                    resource		= "d0io6"
+                    resource	= "d0io6"
             END
         END
     COPY ~%MOD_FOLDER%/spl/ioun/helm19.spl~ ~override~ // Dusty Rose Ioun Stone
         SAY NAME1  @56
         SAY UNIDENTIFIED_DESC @57
-        PATCH_IF (MOD_IS_INSTALLED  ~setup-d0tweak.tp2~ ~11~) BEGIN
+        PATCH_IF (MOD_IS_INSTALLED ~setup-d0tweak.tp2~ ~11~) BEGIN
             LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
                 INT_VAR
                     opcode		= 215
@@ -197,13 +198,13 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
                     timing		= 9
                     parameter2	= 1
                 STR_VAR
-                    resource		= "d0io7"
+                    resource	= "d0io7"
             END
         END
     COPY ~%MOD_FOLDER%/spl/ioun/helm20.spl~ ~override~ // Pale Green Ioun Stone
         SAY NAME1  @59
         SAY UNIDENTIFIED_DESC @60
-        PATCH_IF (MOD_IS_INSTALLED  ~setup-d0tweak.tp2~ ~11~) BEGIN
+        PATCH_IF (MOD_IS_INSTALLED ~setup-d0tweak.tp2~ ~11~) BEGIN
             LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
                 INT_VAR
                     opcode		= 215
@@ -211,13 +212,13 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
                     timing		= 9
                     parameter2	= 1
                 STR_VAR
-                    resource		= "d0io4"
+                    resource	= "d0io4"
             END
         END
     COPY ~%MOD_FOLDER%/spl/ioun/helm23.spl~ ~override~ // Golden Ioun Stone
         SAY NAME1  @62
         SAY UNIDENTIFIED_DESC @63
-        PATCH_IF (MOD_IS_INSTALLED  ~setup-d0tweak.tp2~ ~11~) BEGIN
+        PATCH_IF (MOD_IS_INSTALLED ~setup-d0tweak.tp2~ ~11~) BEGIN
             LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
                 INT_VAR
                     opcode		= 215
@@ -225,13 +226,13 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
                     timing		= 9
                     parameter2	= 1
                 STR_VAR
-                    resource		= "d0io3"
+                    resource	= "d0io3"
             END
         END
     COPY ~%MOD_FOLDER%/spl/ioun/helm24.spl~ ~override~ // Obsidian Ioun Stone
         SAY NAME1  @65
         SAY UNIDENTIFIED_DESC @66
-        PATCH_IF (MOD_IS_INSTALLED  ~setup-d0tweak.tp2~ ~11~) BEGIN
+        PATCH_IF (MOD_IS_INSTALLED ~setup-d0tweak.tp2~ ~11~) BEGIN
             LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
                 INT_VAR
                     opcode		= 215
@@ -239,13 +240,13 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
                     timing		= 9
                     parameter2	= 1
                 STR_VAR
-                    resource		= "d0io1"
+                    resource	= "d0io1"
             END
         END
     COPY ~%MOD_FOLDER%/spl/ioun/helm25.spl~ ~override~ // Silver Ioun Stone
         SAY NAME1  @68
         SAY UNIDENTIFIED_DESC @69
-        PATCH_IF (MOD_IS_INSTALLED  ~setup-d0tweak.tp2~ ~11~) BEGIN
+        PATCH_IF (MOD_IS_INSTALLED ~setup-d0tweak.tp2~ ~11~) BEGIN
             LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
                 INT_VAR
                     opcode		= 215
@@ -253,13 +254,13 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
                     timing		= 9
                     parameter2	= 1
                 STR_VAR
-                    resource		= "d0io6"
+                    resource	= "d0io6"
             END
         END
     COPY ~%MOD_FOLDER%/spl/ioun/helm26.spl~ ~override~ // Lavender Ioun Stone
         SAY NAME1  @71
         SAY UNIDENTIFIED_DESC @72
-        PATCH_IF (MOD_IS_INSTALLED  ~setup-d0tweak.tp2~ ~11~) BEGIN
+        PATCH_IF (MOD_IS_INSTALLED ~setup-d0tweak.tp2~ ~11~) BEGIN
             LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
                 INT_VAR
                     opcode		= 215
@@ -267,13 +268,13 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
                     timing		= 9
                     parameter2	= 1
                 STR_VAR
-                    resource		= "d0io5"
+                    resource	= "d0io5"
             END
         END
     COPY ~%MOD_FOLDER%/spl/ioun/helm27.spl~ ~override~ // Bronze Ioun Stone
         SAY NAME1  @74
         SAY UNIDENTIFIED_DESC @75
-        PATCH_IF (MOD_IS_INSTALLED  ~setup-d0tweak.tp2~ ~11~) BEGIN
+        PATCH_IF (MOD_IS_INSTALLED ~setup-d0tweak.tp2~ ~11~) BEGIN
             LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
                 INT_VAR
                     opcode		= 215
@@ -281,13 +282,13 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
                     timing		= 9
                     parameter2	= 1
                 STR_VAR
-                    resource		= "d0io3"
+                    resource	= "d0io3"
             END
         END
     COPY ~%MOD_FOLDER%/spl/ioun/helm34.spl~ ~override~ // Wong Fei's Ioun Stone
         SAY NAME1  @77
         SAY UNIDENTIFIED_DESC @78
-        PATCH_IF (MOD_IS_INSTALLED  ~setup-d0tweak.tp2~ ~11~) BEGIN
+        PATCH_IF (MOD_IS_INSTALLED ~setup-d0tweak.tp2~ ~11~) BEGIN
             LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
                 INT_VAR
                     opcode		= 215
@@ -295,13 +296,13 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
                     timing		= 9
                     parameter2	= 1
                 STR_VAR
-                    resource		= "d0io4"
+                    resource	= "d0io4"
             END
         END
     COPY ~%MOD_FOLDER%/spl/ioun/amsoul01.spl~ ~override~ // Malla's Soul Stone
         SAY NAME1  @82
         SAY UNIDENTIFIED_DESC @83
-        PATCH_IF (MOD_IS_INSTALLED  ~setup-d0tweak.tp2~ ~11~) BEGIN
+        PATCH_IF (MOD_IS_INSTALLED ~setup-d0tweak.tp2~ ~11~) BEGIN
             LAUNCH_PATCH_FUNCTION ADD_SPELL_EFFECT
                 INT_VAR
                     opcode		= 215
@@ -309,9 +310,18 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
                     timing		= 9
                     parameter2	= 1
                 STR_VAR
-                    resource		= "d0io2"
+                    resource	= "d0io2"
             END
         END
+    ACTION_IF (MOD_IS_INSTALLED ~setup-d0tweak.tp2~ ~11~) BEGIN
+        COPY    ~%MOD_FOLDER%/vvc/ioun/d0tweak/d0io1.vvc~ ~override~ // Obsidian Ioun Stone
+                ~%MOD_FOLDER%/vvc/ioun/d0tweak/d0io2.vvc~ ~override~ // Malla's Soul Stone
+                ~%MOD_FOLDER%/vvc/ioun/d0tweak/d0io3.vvc~ ~override~ // Bronze Ioun Stone and Golden Ioun Stone
+                ~%MOD_FOLDER%/vvc/ioun/d0tweak/d0io4.vvc~ ~override~ // Trollblood Ioun Stone, Pale Green Ioun Stone and Wong Fei's Ioun Stone
+                ~%MOD_FOLDER%/vvc/ioun/d0tweak/d0io5.vvc~ ~override~ // Blood Red Ioun Stone and Lavender Ioun Stone
+                ~%MOD_FOLDER%/vvc/ioun/d0tweak/d0io6.vvc~ ~override~ // Pearly White Ioun Stone, Silver Ioun Stone and Purification Stone
+                ~%MOD_FOLDER%/vvc/ioun/d0tweak/d0io7.vvc~ ~override~ // Dusty Rose Ioun Stone
+    END
     COPY ~%MOD_FOLDER%/spl/ioun/emi01.spl~ ~override~ // Trollblood Ioun Stone
         SAY NAME1  @46
         SAY UNIDENTIFIED_DESC @45
@@ -407,6 +417,11 @@ ACTION_IF GAME_IS ~iwdee~ BEGIN
     COPY ~%MOD_FOLDER%/bam/ioun/iwdee/ohioun01.bam~ ~override~
     COPY ~%MOD_FOLDER%/bam/ioun/iwdee/ohioun02.bam~ ~override~
     COPY ~%MOD_FOLDER%/bam/ioun/iwdee/ohioun03.bam~ ~override~
+    /*
+    ~%MOD_FOLDER%/vvc/ioun/d0tweak/d0io8.vvc~ ~override~
+    ~%MOD_FOLDER%/vvc/ioun/d0tweak/d0io9.vvc~ ~override~
+    */
+
 END
 
 PRINT ~Thank you for installing: "Congenio's Pebble Collection"~
