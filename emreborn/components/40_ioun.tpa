@@ -317,9 +317,9 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
         COPY    ~%MOD_FOLDER%/vvc/ioun/d0tweak/d0io1.vvc~ ~override~ // Obsidian Ioun Stone
                 ~%MOD_FOLDER%/vvc/ioun/d0tweak/d0io2.vvc~ ~override~ // Malla's Soul Stone
                 ~%MOD_FOLDER%/vvc/ioun/d0tweak/d0io3.vvc~ ~override~ // Bronze Ioun Stone and Golden Ioun Stone
-                ~%MOD_FOLDER%/vvc/ioun/d0tweak/d0io4.vvc~ ~override~ // Trollblood Ioun Stone, Pale Green Ioun Stone and Wong Fei's Ioun Stone
+                ~%MOD_FOLDER%/vvc/ioun/d0tweak/d0io4.vvc~ ~override~ // Trollblood Ioun Stone, Pale Green Ioun Stone, and Wong Fei's Ioun Stone
                 ~%MOD_FOLDER%/vvc/ioun/d0tweak/d0io5.vvc~ ~override~ // Blood Red Ioun Stone and Lavender Ioun Stone
-                ~%MOD_FOLDER%/vvc/ioun/d0tweak/d0io6.vvc~ ~override~ // Pearly White Ioun Stone, Silver Ioun Stone and Purification Stone
+                ~%MOD_FOLDER%/vvc/ioun/d0tweak/d0io6.vvc~ ~override~ // Pearly White Ioun Stone, Silver Ioun Stone, and Purification Stone
                 ~%MOD_FOLDER%/vvc/ioun/d0tweak/d0io7.vvc~ ~override~ // Dusty Rose Ioun Stone
     END
     COPY ~%MOD_FOLDER%/spl/ioun/emi01.spl~ ~override~ // Trollblood Ioun Stone
