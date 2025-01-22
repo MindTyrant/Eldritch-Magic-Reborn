@@ -8,7 +8,18 @@ A mod for BG2EE and EET.  Some features may work with IWDEE. Currently, only win
 
 Mod Features
  
-* Congenio's Pebble Collection - Allows multiple Ioun stones to stack without using any equipment slots. WARNING: Ioun stones that use Opcode "Stat: Maximum HP Modifier [18]" work differently than others. For the HP modifier to be removed when the Ioun stone is, the HP modifier cannot be saved and loaded. In other words, if you save with the Pale Green Ioun Stone and/or Wong Fei's Ioun Stone equipped in orbit, you must equip them again upon loading to receive the HP modifier.
+* Congenio's Pebble Collection - Allows multiple Ioun stones to stack without (*permanently*) using any equipment slots. Simply equip the stone to the headslot set it, and then use its item ability to put it in orbit. At this point it will disappear from both your headslot and inventory. You can remove its benefits and restore the stone to your inventory with its provided innate ability.  
+
+  WARNING: Ioun stones that use Opcode "Stat: Maximum HP Modifier [18]" work differently than others. For the HP modifier to be removed when the Ioun stone is, the HP modifier cannot be saved and loaded. In other words, if you save with the Pale Green Ioun Stone and/or Wong Fei's Ioun Stone equipped in orbit, you must equip them again upon loading to receive the HP modifier. 
+
+  UPDATED for partial compatiblity with Visual Ioun Stones from the [d0tweak](https://github.com/Pocket-Plane-Group/D0Tweak) mod. For some reason, Obsidion and Malla's stone display near perfect, while the others seem to play so fast that multiple copies of the same stone appear to be rendered. When the game is paused, you can see only one copy is rendered.  I tried to slow them done in the .vvc file, it did not seem to have an effect. Please contact me if you know how to resolve this error.
+  
+  Note that if two stones that use the same .vvc file, it will only render one of them. This affects the following groups of Ioun Stones:
+
+  - Bronze Ioun Stone and Golden Ioun Stone
+  - Trollblood Ioun Stone, Pale Green Ioun Stone, and Wong Fei's Ioun Stone
+  - Blood Red Ioun Stone and Lavender Ioun Stone
+  - Pearly White Ioun Stone, Silver Ioun Stone, and Purification Stone
 
 * Eldritch Armors - Gives the different Elven Chain suits more powers based on their enchantment level.  Each suit now provides unique bonuses based on their lore, on top of providing superior protection without disabling spellcasting. 
 
