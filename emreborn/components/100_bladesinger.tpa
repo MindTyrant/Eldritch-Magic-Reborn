@@ -336,11 +336,11 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
                                           LPF ADD_ITEM_EQEFFECT   INT_VAR opcode = 233 target = 1 parameter1 = 2 parameter2 = (134 + (0x10000 * 1)) timing = 2 resist_dispel = 0    END
                                     END ELSE BEGIN
                                           LPF ADD_ITEM_EQEFFECT   INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2   STR_VAR resource = ~embs1~ END
-                                          LPF ADD_ITEM_EQEFFECT   INT_VAR opcode = 321 timing = 2                                   STR_VAR resource = ~embs1~ END
+                                          LPF ADD_ITEM_EQEFFECT   INT_VAR opcode = 321 timing = 2     STR_VAR resource = ~embs1~ END
                                           LPF ADD_ITEM_EQEFFECT   INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2   STR_VAR resource = ~embs2~ END
-                                          LPF ADD_ITEM_EQEFFECT   INT_VAR opcode = 321 timing = 2                                   STR_VAR resource = ~embs2~ END
+                                          LPF ADD_ITEM_EQEFFECT   INT_VAR opcode = 321 timing = 2     STR_VAR resource = ~embs2~ END
                                           LPF ADD_ITEM_EQEFFECT   INT_VAR opcode = 206 target = 1 parameter1 = (0 - 1) timing = 2   STR_VAR resource = ~embs3~ END
-                                          LPF ADD_ITEM_EQEFFECT   INT_VAR opcode = 321 timing = 2                                   STR_VAR resource = ~embs3~ END
+                                          LPF ADD_ITEM_EQEFFECT   INT_VAR opcode = 321 timing = 2     STR_VAR resource = ~embs3~ END
                                     END
                               END
                         END

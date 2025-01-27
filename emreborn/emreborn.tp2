@@ -2,7 +2,7 @@
 BACKUP "weidu_external/emreborn/backup"
 AUTHOR ~Mindtyrant1024@gmail.com~
 
-VERSION v0.1.2.6
+VERSION v0.1.2.7
 AUTO_EVAL_STRINGS
 
 // "EM" prefix reserved by Abdel_Adrian (https://forums.beamdog.com/profile/Abdel_Adrian) as of June 23rd, 2015 (http://www.blackwyrmlair.net/prefixes/)
@@ -21,23 +21,25 @@ LANGUAGE
 "emreborn/lang/english/setup.tra"
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
-BEGIN "Eldritch Armors" DESIGNATED 10
+BEGIN @2 DESIGNATED 10
 GROUP @1
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @0
 
 INCLUDE ~%MOD_FOLDER%/components/10_armors.tpa~  
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
-BEGIN "Congenio's Pebble Collection" DESIGNATED 40
+BEGIN @3 DESIGNATED 40
 GROUP @1
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @0
+METADATA "AFTER = d0tweak"
 
 INCLUDE ~%MOD_FOLDER%/components/40_ioun.tpa~  
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
-BEGIN "Bladesinger Kit" DESIGNATED 100
+BEGIN @6 DESIGNATED 100
 GROUP @2
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @0
+METADATA "AFTER = tnt"
 
 INCLUDE ~%MOD_FOLDER%/components/100_bladesinger.tpa~  
 
