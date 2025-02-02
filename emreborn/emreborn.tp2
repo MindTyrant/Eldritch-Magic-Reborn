@@ -37,7 +37,7 @@ INCLUDE ~%MOD_FOLDER%/components/40_ioun.tpa~
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 BEGIN @6 DESIGNATED 100
-GROUP @2
+GROUP @5
 REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet~ @0
 METADATA "AFTER = tnt"
 
