@@ -2,7 +2,7 @@
 ### Rebuilt Version of Eldritch Magic, Originally by AbdelAdrian
 ## By MindTyrant
 
-v0.1.2.7
+v0.1.2.8
 
 A mod for BG2EE and EET.  Some features may work with IWDEE. Currently, only windows platform is supported. Any volunteers who wish to help expand compatibility to other games and platforms should contact me at mindtyrant1024@gmail.com.
 
@@ -23,7 +23,9 @@ Mod Features
 
 * Eldritch Armors - Gives the different Elven Chain suits more powers based on their enchantment level.  Each suit now provides unique bonuses based on their lore, on top of providing superior protection without disabling spellcasting. 
 
-* Bladesinger Kit - Based on the 2<sup>nd</sup> edition material found in the *Complete Book of Elves*, Bladesingers are elven fighter/mages known for the haunting sounds made by their weapons with only the slightest bodily movement. It uses an alternative to Single Weapon style, which is incorporated in the form of bladesongs. It was rebalanced for Baldur's Gate to account for the loss of the miscellaneous bonuses from an offhand weapon or shield items, and the superior weapon styles found there. Certain concessions were also made because of the limited ruleset it uses. Note the names for its various abilities were "borrowed" from other editions. Only the tiger clan, who are masters of the long sword, were included in this release. Other clans who master other weapons may be included with future releases if there is sufficient interest. 
+* Bladesinger Kit - Based on the 2<sup>nd</sup> edition material found in the *Complete Book of Elves*, Bladesingers are elven fighter/mages known for the haunting sounds made by their weapons with only the slightest bodily movement. It uses an alternative to Single Weapon style, which is incorporated in the form of bladesongs. It was rebalanced for Baldur's Gate to account for the loss of the miscellaneous bonuses from an offhand weapon or shield items, and the superior weapon styles found there. Certain concessions were also made because of the limited ruleset it uses. Note the names for its various abilities were "borrowed" from similar abilities in other editions. Only the tiger clan, who are masters of the long sword, were included in this release. Other clans who master other weapons may be included with future releases if there is sufficient interest. 
+
+  NOTE: "Song of Victory" now uses the "Able to Poison Weapons" icon and the Bladesong portrait icons have been copied and renamed. The Character Sheet will display "Song of Defense," "Song of Victory," or "Song of Celerity" instead of "Defensive Harmony," "Able to Poison Weapons," or "Haste." Contact me if you can help design unique icons for Bladesongs.
 
 BLADESINGER KIT: Of the roving Elves, there are few as deadly as the Bladesingers of Clan Lion. They are experts in the long sword and have spent their lives studying their chosen weapon. They have also learned to cast spells while engaged in combat, and thus they double their might.
 

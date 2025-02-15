@@ -119,15 +119,24 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
       END
       
       // Bladesongs
+      COPY ~%MOD_FOLDER%/bam/embs1.bam~ ~override~
+            LAF cd_new_portrait_icon INT_VAR string = RESOLVE_STR_REF(@110) STR_VAR bam_file = embs1 RET embs1 = icon END 
       COPY  ~%MOD_FOLDER%/spl/embs1.spl~ ~override~
             SAY NAME1 @110
             SAY UNIDENTIFIED_DESC @111
+            LPF ALTER_EFFECT INT_VAR match_opcode = 142 parameter2 = embs1 END      
+      COPY ~%MOD_FOLDER%/bam/embs2.bam~ ~override~
+            LAF cd_new_portrait_icon INT_VAR string = RESOLVE_STR_REF(@114) STR_VAR bam_file = embs2 RET embs2 = icon END
       COPY  ~%MOD_FOLDER%/spl/embs2.spl~ ~override~
             SAY NAME1 @114
             SAY UNIDENTIFIED_DESC @115
+            LPF ALTER_EFFECT INT_VAR match_opcode = 142 parameter2 = embs2 END
+      COPY ~%MOD_FOLDER%/bam/embs3.bam~ ~override~
+            LAF cd_new_portrait_icon INT_VAR string = RESOLVE_STR_REF(@118) STR_VAR bam_file = embs3 RET embs3 = icon END
       COPY  ~%MOD_FOLDER%/spl/embs3.spl~ ~override~
             SAY NAME1 @118
             SAY UNIDENTIFIED_DESC @119
+            LPF ALTER_EFFECT INT_VAR match_opcode = 142 parameter2 = embs3 END
 
       // Adds Bladesinger's other CLAB spells.
       COPY  ~%MOD_FOLDER%/spl/emcl10.spl~ ~override~

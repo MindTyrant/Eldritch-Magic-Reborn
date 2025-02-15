@@ -381,7 +381,7 @@ Requires:
  5 Strength
 
 Weight: 7~
-     @153 = ~After years refining his craft, this suit was supposed to be the first of many Elven armors utilizing a new technique by the elven smith Aslyferund. By connecting each chain to its six neighbors instead of the usual four, he was able to weave intricate arcane patterns directly into armor. This allowed him to place additional enchantments "layered underneath" his old designs, like the image of a lion’s head, which roars as wearer moves, and load enough to break any magical silence. Arcane wards form a pattern of protection throughout, preventing attack by mundane weaponry; this has protected many Elven heroes in the eight intervening centuries. Their heroism transcended this artifact, favoring those who do not indulge in the petty whims of individuality. So, it may be no coincidence <CHARNAME> found this suit in Nizidramanii'yt’s hoard during the Time of Troubles. Fate flipped a coin, deciding to advance <CHARNAME>’s righteous cause, rather than aid in <PRO_HISHER> defeat. 
+     @153 = ~After years refining his craft, this suit was supposed to be the first of many Elven armors utilizing a new technique by the elven smith Aslyferund. By connecting each chain to six neighbors instead of four, he wove intricate patterns, including a lion’s head at its front which "roars" as the wearer moves, breaking any magical silence. Additional arcane wards protect from mundane weaponry, safeguarding many Elven heroes in the eight intervening centuries. Their heroism venerated this artifact, so much so that it may be no coincidence <CHARNAME> found this suit in Nizidramanii'yt’s hoard during the Time of Troubles. 
 
 STATISTICS:
 
@@ -416,7 +416,7 @@ Requires:
  5 Strength
 
 Weight: 12~
-     @159 = ~Being that this powerful armor was only recently rewoven, gilded, and reenchanted, there is little lore beyond that of the components Cespenar used when he fashioned it. Nevertheless, Cespenar interwove each chain into it ten neighbors the new infernal markings into the preexisting arcane patterns so seamlessly that he improved its protection. The fact that the imp, and former “butler” to the deceased god of Murder, was able to improve upon the work of Aslyferund speaks volumes, and casts suspicion that the elven smith was in fact murdered by Cespenar and that he was the rival smith, jealous of his secrets. Whatever happened, Aslyferund's secrets appear to belong to Cespenar now…
+     @159 = ~Being that this powerful armor was only recently rewoven, gilded, and reenchanted, there is little lore beyond that of the components Cespenar used when he fashioned it. Nevertheless, Cespenar interwove each chain into its ten neighbors to create layers of new infernal patterns "underneath" the preexisting arcane markings, enhancing the suit's overall protection. The fact that the imp, and former “butler” to the deceased god of Murder, was able to improve upon the work of Aslyferund speaks volumes, and casts suspicion that the elven smith was in fact murdered by Cespenar and that he was the rival smith, jealous of his secrets. Whatever happened, Aslyferund's secrets appear to belong to Cespenar now…
 
 STATISTICS:
 
@@ -458,7 +458,7 @@ Requires:
  6 Strength
 
 Weight: 4~
-     @186 = ~After passing the Blade-rite, a test occurring completely within the imagination of the applicant, and privy only to <PRO_HIMHER>self, the sword established a magical bond with <CHARNAME> as its rightful wielder. In ancient times, this bond came with the militant post of Spell-Major or the Defender by Art, having the solemn duty of upkeeping the magical defenses of Cormanthor forest and commanding the arcane branch of the military. Since the fall of Myth Drannor over six centuries ago, this post has been vacant, and now the wielder of Artblade owes the responsibility of providing magical defense to all Elf people.
+     @186 = ~Fate flipped a coin, deciding to advance <CHARNAME>’s righteous cause, deciding <PRO_HESHE> passed the Blade-rite. A test occurring completely within the imagination of the applicant, and privy only to <PRO_HIMHER>self, the Blade-rite established a magical bond between this sword and <CHARNAME> as its rightful wielder. In ancient times, this bond came with the militant post of Spell-Major or the Defender by Art, having the solemn duty of upkeeping the magical defenses of Cormanthor forest and commanding the arcane branch of the military. Since the fall of Myth Drannor over six centuries ago, this post has been vacant, and now the wielder of Artblade owes the responsibility of providing magical defense to all Elf people.
 
 STATISTICS:
 

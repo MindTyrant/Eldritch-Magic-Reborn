@@ -2,7 +2,7 @@
 BACKUP "weidu_external/emreborn/backup"
 AUTHOR ~Mindtyrant1024@gmail.com~
 
-VERSION v0.1.2.7
+VERSION v0.1.2.8
 AUTO_EVAL_STRINGS
 
 // "EM" prefix reserved by Abdel_Adrian (https://forums.beamdog.com/profile/Abdel_Adrian) as of June 23rd, 2015 (http://www.blackwyrmlair.net/prefixes/)
@@ -10,6 +10,7 @@ AUTO_EVAL_STRINGS
 ALWAYS
     INCLUDE ~%MOD_FOLDER%/lib/a7#add_kit_ex.tpa~
     INCLUDE ~%MOD_FOLDER%/lib/macros.tpa~
+    INCLUDE ~%MOD_FOLDER%/lib/cd_new_portrait_icon.tpa~
     OUTER_SPRINT BGFORGE_LIB_DIR "%MOD_FOLDER%/lib/bgforge"
     INCLUDE ~%BGFORGE_LIB_DIR%/main.tpa~
 END
