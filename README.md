@@ -2,7 +2,7 @@
 ### Rebuilt Version of Eldritch Magic, Originally by AbdelAdrian
 ## By MindTyrant
 
-v0.1.2.8
+v0.1.2.9
 
 A mod for BG2EE and EET.  Some features may work with IWDEE. Currently, only windows platform is supported. Any volunteers who wish to help expand compatibility to other games and platforms should contact me at mindtyrant1024@gmail.com.
 
@@ -43,7 +43,7 @@ Advantages:
 - Blindfighting: Immune to blindness.
 - Countersong: Gain a +1 bonus to Saving Throws vs. Spell. This bonus improves by +1 for every six mage levels. 
 - Arcane Fury: At mage level 5, inflicts critical damage on an attack roll of 19 or 20. 
-- Arcane Strike: At mage level 15, may make an additional attack every other round. 
+- Arcane Strike: At mage level 15, may make an additional attack every round. 
 
 Disadvantages:
 - Race restricted to Elf.
