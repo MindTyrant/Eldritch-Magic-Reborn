@@ -157,7 +157,7 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
             SAY NAME1 @129
             SAY UNIDENTIFIED_DESC @130
 
-      //Reduces proficiences; does so for classes, but not kits. So it will affect all F/M, not just Bladesingers.  Thankfully, there are no vanilla F/M companions. Do not use with Khalid or Xan as F/M mod.
+      //Reduces proficiences; will affect all F/M, not just Bladesingers.  Thankfully, there are no vanilla F/M companions. Do not use with Khalid or Xan as F/M mod.
       COPY_EXISTING ~profs.2da~ ~override~
             COUNT_2DA_ROWS 3 rowcount
             FOR (row=0;row < rowcount;++row) BEGIN
