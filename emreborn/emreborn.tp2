@@ -2,7 +2,7 @@
 BACKUP "weidu_external/emreborn/backup"
 AUTHOR ~Mindtyrant1024@gmail.com~
 
-VERSION v0.1.2.9
+VERSION v0.1.2.10
 AUTO_EVAL_STRINGS
 
 // "EM" prefix reserved by Abdel_Adrian (https://forums.beamdog.com/profile/Abdel_Adrian) as of June 23rd, 2015 (http://www.blackwyrmlair.net/prefixes/)
@@ -24,7 +24,7 @@ LANGUAGE
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 BEGIN @2 DESIGNATED 10
 GROUP @1
-REQUIRE_PREDICATE GAME_IS ~bgee bg2ee eet iwdee~ @0
+REQUIRE_PREDICATE GAME_IS ~bg2ee eet iwdee~ @0
 
 INCLUDE ~%MOD_FOLDER%/components/10_armors.tpa~  
 
