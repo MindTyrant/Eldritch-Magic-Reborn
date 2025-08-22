@@ -284,7 +284,7 @@ ACTION_IF GAME_IS ~bgee bg2ee eet~ BEGIN
       COPY_EXISTING ~chan04.itm~ ~nowhere~
             READ_LONG NAME1 splint_strref
       COPY_EXISTING_REGEXP GLOB ~^.+\.itm$~ ~override~
-            PATCH_IF (SOURCE_SIZE > 0x72) BEGIN             // skip null/broken items
+            PATCH_IF (SOURCE_SIZE > 0x71) BEGIN             // skip null/broken items
                   READ_SHORT ITM_type type
 	            PATCH_IF (type = 0x02)  BEGIN 		// armors; splint and plate armor remove effects of bladesongs and prevents their application
                         READ_LONG ITM_animation appearance
